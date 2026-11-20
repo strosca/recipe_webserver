@@ -217,9 +217,15 @@ Ein typischer Lauf:
 | Zwei Läufe gleichzeitig | Der zweite beendet sich sofort (Lock in `/opt/rezepte/.git/rezepte-update.lock`) |
 | `rezepte.json` fehlt oder ist leer | Die App zeigt einen Fehler- bzw. Leerzustand mit „Erneut versuchen“ |
 
+## Offline-Modus
+
+Die App hat einen Service Worker. Er speichert die App selbst und `rezepte.json` bei jedem Aufruf. Ist der Server nicht erreichbar (unterwegs, Funkloch) oder antwortet er nicht innerhalb von 3,5 s, startet die App trotzdem: mit dem zuletzt geladenen Stand und einem Hinweis „Offline“. Einkaufsliste, Favoriten, Notizen und Timer liegen ohnehin auf dem Gerät und funktionieren normal. Sobald der Server wieder erreichbar ist, lädt die App beim nächsten Öffnen automatisch neu.
+
+**Voraussetzung ist HTTPS.** Browser, auch Safari auf iOS, erlauben Service Worker nur auf `https://` (und `localhost`). Unter `http://<IP>:8080` öffnet sich die Homescreen-App ohne Verbindung zum Server gar nicht.
+
 ## Optional: HTTPS und Zugriff von unterwegs
 
-Ohne HTTPS funktionieren auf dem iPhone ein paar Komfortfunktionen nicht: „Bildschirm bleibt an“ im Kochmodus, das Teilen-Menü für die Einkaufsliste, das Offline-Caching und automatisches Kopieren. Fürs Kopieren gibt es einen Ersatz: Lässt sich nicht automatisch kopieren, zeigt die App den Text zum manuellen Kopieren an.
+Ohne HTTPS funktionieren auf dem iPhone ein paar Komfortfunktionen nicht: der **Offline-Modus** (siehe oben), „Bildschirm bleibt an“ im Kochmodus, das Teilen-Menü für die Einkaufsliste und automatisches Kopieren. Fürs Kopieren gibt es einen Ersatz: Lässt sich nicht automatisch kopieren, zeigt die App den Text zum manuellen Kopieren an.
 
 Am einfachsten ohne eigene Domain geht es mit **Tailscale**: auf Server und iPhone installieren, dann
 

@@ -380,6 +380,7 @@
   const S = {
     status: 'loading', // loading | ok | empty | error
     error: null,
+    offline: false,
     recipes: [],
     byId: new Map(),
     generated: null,
@@ -464,11 +465,32 @@
       ingest(data);
       S.status = S.recipes.length ? 'ok' : 'empty';
       S.error = null;
+      // Der Service Worker markiert Antworten aus dem Cache
+      S.offline = res.headers.get('X-Rezepte-Offline') === '1' || !navigator.onLine;
     } catch (err) {
-      if (S.recipes.length) toast('Aktualisieren fehlgeschlagen – zeige letzten Stand.');
-      else { S.status = 'error'; S.error = err; }
+      // fetch() wirft TypeError, wenn der Server gar nicht erreichbar ist
+      S.offline = err instanceof TypeError || !navigator.onLine;
+      if (!S.recipes.length) { S.status = 'error'; S.error = err; }
+      else if (!S.offline) toast('Aktualisieren fehlgeschlagen – zeige letzten Stand.');
     }
     S.lastLoad = Date.now();
+    updateOfflineUi();
+  }
+
+  // Offline-Hinweise: Elemente mit data-offline-ui werden ein-/ausgeblendet, ohne neu zu rendern.
+  function offlineNote(kind) {
+    const stand = S.generated && !isNaN(S.generated) ? ` vom ${fmtDateShort.format(S.generated)}, ${fmtTime.format(S.generated)}` : '';
+    if (kind === 'pill') {
+      return h('span', { class: 'offline-pill', dataset: { offlineUi: '' }, hidden: !S.offline, role: 'status' }, h('span', { class: 'dot', 'aria-hidden': 'true' }), 'Offline');
+    }
+    const text = kind === 'shop'
+      ? 'Offline – die Einkaufsliste funktioniert trotzdem ganz normal.'
+      : `Offline – du siehst den gespeicherten Stand${stand}. Favoriten, Einkaufsliste und Timer funktionieren normal.`;
+    return h('p', { class: 'offline-note', dataset: { offlineUi: '' }, hidden: !S.offline, role: 'status' }, h('span', { class: 'dot', 'aria-hidden': 'true' }), text);
+  }
+  function updateOfflineUi() {
+    document.body.classList.toggle('is-offline', !!S.offline);
+    $$('[data-offline-ui]').forEach((el) => { el.hidden = !S.offline; });
   }
 
   // Favoriten
@@ -564,10 +586,13 @@
     if (S.status === 'loading') return h('div', null, h('div', { class: 'state state-loading', 'aria-busy': 'true' }, h('p', null, 'Rezepte werden geladen')), h('div', { class: 'skeleton', 'aria-hidden': 'true' }, h('div'), h('div'), h('div')));
     if (S.status === 'error') {
       const is404 = S.error && S.error.code === 404;
+      const offline = S.offline && !is404;
       return stateView({
         art: 'error',
-        title: 'Rezepte konnten nicht geladen werden',
-        text: is404 ? h('span', null, 'Die Datei ', h('code', null, 'rezepte.json'), ' fehlt. Läuft ', h('code', null, 'scripts/update.sh'), ' auf dem Server?') : (S.error?.message || 'Unbekannter Fehler.'),
+        title: offline ? 'Server nicht erreichbar' : 'Rezepte konnten nicht geladen werden',
+        text: is404 ? h('span', null, 'Die Datei ', h('code', null, 'rezepte.json'), ' fehlt. Läuft ', h('code', null, 'scripts/update.sh'), ' auf dem Server?')
+          : offline ? 'Du bist offline und auf diesem Gerät sind noch keine Rezepte gespeichert. Die Einkaufsliste funktioniert trotzdem.'
+            : (S.error?.message || 'Unbekannter Fehler.'),
         actions: [h('button', { type: 'button', class: 'btn btn-primary', onclick: retry }, icon('refresh'), 'Erneut versuchen')],
       });
     }
@@ -732,7 +757,7 @@
       S.generated && !isNaN(S.generated) ? `Stand: ${fmtDateShort.format(S.generated)}, ${fmtTime.format(S.generated)} · ` : '',
       h('button', { type: 'button', class: 'link-btn', onclick: async () => { await load(); render(); toast('Aktualisiert'); } }, 'Aktualisieren'));
 
-    main.replaceChildren(header, search, regionChips || '', h('div', { id: 'results', 'aria-live': 'polite' }), footer);
+    main.replaceChildren(header, offlineNote('list'), search, regionChips || '', h('div', { id: 'results', 'aria-live': 'polite' }), footer);
     renderResults();
   }
 
@@ -880,6 +905,7 @@
     const bar = h('div', { class: 'detail-bar' },
       h('button', { type: 'button', class: 'icon-btn', 'aria-label': 'Zurück', onclick: () => navBack('#/') }, icon('back')),
       barTitle,
+      offlineNote('pill'),
       h('button', { type: 'button', class: 'icon-btn', 'aria-label': 'Rezept teilen', onclick: () => shareRecipe(rec) }, icon('share')),
       h('button', { type: 'button', class: 'icon-btn', 'aria-label': 'Rezept drucken', onclick: () => window.print() }, icon('print')),
       favButton(rec));
@@ -1101,14 +1127,14 @@
     const rows = rec.zutaten.map((z) => ({ text: scaledText(z, factor), on: !isPantry(z) }));
     const btn = h('button', { type: 'button', class: 'btn btn-primary' });
     const paintBtn = () => { const n = rows.filter((r) => r.on).length; btn.textContent = n ? `${plural(n, 'Zutat', 'Zutaten')} hinzufügen` : 'Nichts ausgewählt'; btn.disabled = !n; };
-    const list = h('ul', { class: 'checklist' }, rows.map((r) => {
+    const list = h('ul', { class: 'checklist pick' }, rows.map((r) => {
       const { amount, name } = ingredientParts(r.text);
       return h('li', null, checkItem({ checked: r.on, onChange: (on) => { r.on = on; paintBtn(); }, content: [amount ? h('span', { class: 'amount' }, amount, ' ') : null, name] }));
     }));
     const p = getPortions(rec);
     const dlg = openSheet({
       title: 'Auf die Einkaufsliste',
-      body: [h('p', { class: 'muted' }, `${rec.name}${p ? ` · für ${plural(p, 'Portion', 'Portionen')}` : ''}. Was du schon da hast, einfach abwählen.`), list],
+      body: [h('p', { class: 'muted' }, `${rec.name}${p ? ` · für ${plural(p, 'Portion', 'Portionen')}` : ''}. Angehakt = kommt auf die Liste. Was du schon da hast, einfach abwählen.`), list],
       footer: [btn],
     });
     btn.addEventListener('click', () => {
@@ -1146,7 +1172,7 @@
     const header = h('header', { class: 'topbar' },
       h('div', null, h('p', { class: 'eyebrow' }, open.length ? `${open.length} offen` : 'Alles erledigt'), h('h1', { tabindex: '-1' }, 'Einkaufsliste')));
 
-    const kids = [header, form];
+    const kids = [header, offlineNote('shop'), form];
 
     if (!shop.length) {
       kids.push(stateView({ art: 'cart', title: 'Die Liste ist leer', text: 'Öffne ein Rezept und tippe auf „Einkaufsliste“ – oder trag oben selbst etwas ein.', actions: [h('a', { class: 'btn', href: '#/' }, 'Zu den Rezepten')] }));
@@ -1503,11 +1529,17 @@
       if (document.visibilityState !== 'visible') return;
       tick();
       if (S.route.name === 'cook') keepAwake(true);
-      if (Date.now() - S.lastLoad > 10 * 60 * 1000) {
+      if (S.offline || Date.now() - S.lastLoad > 10 * 60 * 1000) {
         const before = S.recipes.length;
         await load();
         if (S.route.name === 'list' && S.recipes.length !== before) render();
       }
+    });
+    window.addEventListener('offline', () => { S.offline = true; updateOfflineUi(); });
+    window.addEventListener('online', async () => {
+      const wasError = S.status === 'error';
+      await load(); // prüft, ob der Server wirklich wieder erreichbar ist
+      if (wasError || S.route.name === 'list') render();
     });
     window.addEventListener('storage', (e) => {
       if (!e.key || !e.key.startsWith(PREFIX)) return;

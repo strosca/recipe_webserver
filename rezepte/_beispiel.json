@@ -1,0 +1,85 @@
+{
+  "datum": "2026-11-21",
+  "rezepte": [
+    {
+      "name": "Kartoffel-Lauch-Gratin",
+      "beschreibung": "Cremiges Ofengericht mit Lauch und Bergkäse – wenig Arbeit, viel Gemütlichkeit.",
+      "kueche": "französisch",
+      "typ": "Ofengericht",
+      "zeit_aktiv_min": 20,
+      "zeit_passiv_min": 40,
+      "portionen": 2,
+      "zutaten": [
+        "500 g festkochende Kartoffeln",
+        "1 Stange Lauch",
+        "1 Zehe Knoblauch",
+        "200 ml Sahne",
+        "100 ml Milch",
+        "80 g Bergkäse",
+        "1 EL Butter",
+        "½ TL Muskatnuss, frisch gerieben",
+        "Salz, Pfeffer"
+      ],
+      "schritte": [
+        "Ofen auf 200 °C Ober-/Unterhitze vorheizen. Auflaufform mit Butter ausstreichen.",
+        "Kartoffeln schälen und in 2–3 mm dünne Scheiben hobeln. Lauch längs halbieren, waschen und in feine Ringe schneiden.",
+        "Sahne und Milch mit dem gepressten Knoblauch, Muskat, 1 TL Salz und Pfeffer verrühren.",
+        "Kartoffeln und Lauch abwechselnd in die Form schichten, mit der Sahnemischung übergießen.",
+        { "text": "Bergkäse reiben, darüberstreuen und das Gratin 35–40 Minuten goldbraun backen.", "timer_min": 35 },
+        { "text": "5 Minuten ruhen lassen, dann servieren. Dazu passt ein grüner Salat.", "timer_min": 5 }
+      ],
+      "tags": ["vegetarisch", "Ofen"],
+      "ablauf": [
+        "Ofen vorheizen, Form buttern",
+        "Kartoffeln hobeln, Lauch schneiden",
+        "Sahne würzen, alles schichten",
+        "Käse drüber, 35–40 min backen – Zeit zum Aufräumen",
+        "5 min ruhen lassen und servieren"
+      ],
+      "utensilien": ["Auflaufform (ca. 20 × 30 cm)", "Gemüsehobel", "Reibe", "Knoblauchpresse"],
+      "vorab": ["Ofen auf 200 °C vorheizen"]
+    },
+    {
+      "name": "Rote-Linsen-Dal mit Spinat",
+      "beschreibung": "Wärmendes, mildes Dal mit Kokosmilch und frischem Spinat, fertig in einer halben Stunde.",
+      "kueche": "indisch",
+      "typ": "Curry",
+      "zeit_aktiv_min": 15,
+      "zeit_passiv_min": 20,
+      "portionen": 2,
+      "zutaten": [
+        "150 g rote Linsen",
+        "1 Zwiebel",
+        "2 Zehen Knoblauch",
+        "1 Stück Ingwer (2 cm)",
+        "1 EL Kokosöl",
+        "1 TL Kreuzkümmel",
+        "1 TL Kurkuma",
+        "1 TL Garam Masala",
+        "1 Dose Kokosmilch (400 ml)",
+        "300 ml Gemüsebrühe",
+        "100 g Babyspinat",
+        "½ Limette",
+        "Basmatireis zum Servieren"
+      ],
+      "schritte": [
+        "Linsen in einem Sieb gründlich waschen, bis das Wasser klar ist.",
+        "Zwiebel fein würfeln, Knoblauch und Ingwer reiben.",
+        "Kokosöl in einem Topf erhitzen, Kreuzkümmel 30 Sekunden rösten, dann Zwiebel 5 Minuten glasig dünsten.",
+        "Knoblauch, Ingwer, Kurkuma und Garam Masala 1 Minute mitbraten.",
+        { "text": "Linsen, Kokosmilch und Brühe zugeben und 18–20 Minuten sanft köcheln lassen, gelegentlich umrühren.", "timer_min": 18 },
+        "Spinat unterheben, bis er zusammenfällt. Mit Limettensaft und Salz abschmecken und mit Reis servieren."
+      ],
+      "tags": ["vegan", "glutenfrei"],
+      "ablauf": [
+        "Reis aufsetzen, Linsen waschen",
+        "Zwiebel, Knoblauch, Ingwer vorbereiten",
+        "Gewürze anrösten, alles anschwitzen",
+        "20 min köcheln – Zeit für den Abwasch",
+        "Spinat unterheben, abschmecken"
+      ],
+      "utensilien": ["Topf mit Deckel", "Sieb", "Reibe"],
+      "vorab": ["Reis rechtzeitig aufsetzen, damit er gleichzeitig fertig ist"]
+    }
+  ]
+}

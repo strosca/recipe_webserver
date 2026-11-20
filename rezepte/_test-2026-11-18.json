@@ -1,0 +1,42 @@
+{
+  "datum": "2026-11-18",
+  "rezepte": [
+    {
+      "name": "Fisch-Tacos mit Limetten-Krautsalat",
+      "beschreibung": "Knusprig gebratener Kabeljau in warmen Tortillas mit frischem Krautsalat und Chipotle-Creme.",
+      "kueche": "mexikanisch",
+      "typ": "Streetfood",
+      "zeit_aktiv_min": 30,
+      "zeit_passiv_min": 10,
+      "portionen": 2,
+      "zutaten": [
+        "300 g Kabeljaufilet",
+        "6 kleine Maistortillas",
+        "¼ Kopf Rotkohl",
+        "2 Limetten",
+        "1 Avocado",
+        "100 g Schmand",
+        "1 TL Chipotle-Paste",
+        "1 TL geräuchertes Paprikapulver",
+        "2 EL Mehl",
+        "2 EL Rapsöl",
+        "½ Bund Koriander",
+        "Salz"
+      ],
+      "schritte": [
+        "Rotkohl fein hobeln, mit Saft einer Limette und einer Prise Salz kräftig verkneten und 10 Minuten ziehen lassen.",
+        "Schmand mit Chipotle-Paste und etwas Limettensaft verrühren. Avocado in Spalten schneiden.",
+        "Fisch in 3 cm große Stücke schneiden, salzen, mit Paprikapulver und Mehl bestäuben.",
+        "Öl in einer Pfanne erhitzen und den Fisch 3–4 Minuten rundum goldbraun braten.",
+        "Tortillas in einer trockenen Pfanne je 30 Sekunden pro Seite erwärmen.",
+        "Tortillas mit Krautsalat, Fisch, Avocado, Chipotle-Creme und Koriander belegen. Mit Limettenspalten servieren."
+      ],
+      "tags": ["Fisch"]
+    },
+    {
+      "name": "Kaputtes Testrezept ohne Zutaten",
+      "beschreibung": "Dieses Rezept muss beim Bauen mit einer Warnung übersprungen werden.",
+      "schritte": ["Nichts tun."]
+    }
+  ]
+}

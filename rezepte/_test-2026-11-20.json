@@ -1,0 +1,72 @@
+{
+  "datum": "2026-11-20",
+  "rezepte": [
+    {
+      "name": "Thai-Kürbiscurry mit Kichererbsen",
+      "beschreibung": "Rotes Curry mit Hokkaido, Kichererbsen und Thai-Basilikum – cremig, leicht scharf.",
+      "kueche": "thailändisch",
+      "typ": "Curry",
+      "zeit_aktiv_min": 20,
+      "zeit_passiv_min": 15,
+      "portionen": 2,
+      "zutaten": [
+        "400 g Hokkaido-Kürbis",
+        "1 Dose Kichererbsen (240 g Abtropfgewicht)",
+        "1 Schalotte",
+        "2 EL rote Currypaste",
+        "1 Dose Kokosmilch (400 ml)",
+        "150 ml Gemüsebrühe",
+        "1 EL Sojasauce",
+        "1 TL brauner Zucker",
+        "1 Limette",
+        "1 Handvoll Thai-Basilikum",
+        "1 EL neutrales Öl",
+        "150 g Jasminreis"
+      ],
+      "schritte": [
+        "Reis nach Packungsanweisung kochen.",
+        "Kürbis entkernen und mit Schale in 2 cm große Würfel schneiden. Schalotte fein würfeln, Kichererbsen abgießen.",
+        "Öl in einem Wok erhitzen, Schalotte 2 Minuten anschwitzen, Currypaste 1 Minute mitrösten.",
+        { "text": "Kokosmilch, Brühe und Kürbis zugeben, zugedeckt 12–15 Minuten köcheln, bis der Kürbis weich ist.", "timer_min": 12 },
+        "Kichererbsen 3 Minuten miterhitzen. Mit Sojasauce, Zucker und Limettensaft abschmecken.",
+        "Mit Thai-Basilikum bestreuen und mit dem Reis servieren."
+      ],
+      "tags": ["vegan", "scharf"],
+      "ablauf": [
+        "Reis aufsetzen",
+        "Kürbis würfeln, Schalotte schneiden",
+        "Currypaste anrösten, alles ablöschen",
+        "12–15 min köcheln lassen",
+        "Kichererbsen rein, abschmecken, servieren"
+      ],
+      "utensilien": ["Wok oder tiefe Pfanne mit Deckel", "kleiner Topf für Reis", "Sieb"]
+    },
+    {
+      "name": "Spaghetti al limone",
+      "beschreibung": "Römischer Klassiker: Zitrone, Parmesan, Butter und ein Schluck Nudelwasser – sonst nichts.",
+      "kueche": "italienisch",
+      "typ": "Pasta",
+      "zeit_aktiv_min": 15,
+      "zeit_passiv_min": 0,
+      "portionen": 2,
+      "zutaten": [
+        "200 g Spaghetti",
+        "1 Bio-Zitrone",
+        "40 g Butter",
+        "50 g Parmesan",
+        "2 EL Olivenöl",
+        "Salz",
+        "schwarzer Pfeffer"
+      ],
+      "schritte": [
+        "Reichlich Salzwasser in einem großen Topf zum Kochen bringen.",
+        "Zitronenschale fein abreiben, Saft auspressen. Parmesan fein reiben.",
+        "Spaghetti 1 Minute kürzer als angegeben kochen, ca. 8 Minuten. Vor dem Abgießen eine Tasse Nudelwasser abnehmen.",
+        "Butter und Olivenöl in einer Pfanne schmelzen, Zitronenschale und 100 ml Nudelwasser zugeben.",
+        "Spaghetti in der Pfanne schwenken, vom Herd nehmen, Parmesan und Zitronensaft unterrühren, bis eine cremige Sauce entsteht.",
+        "Mit Pfeffer abschmecken und sofort servieren."
+      ],
+      "tags": ["vegetarisch", "schnell"]
+    }
+  ]
+}

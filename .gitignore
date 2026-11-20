@@ -1,0 +1,9 @@
+# Wird auf dem Server von scripts/build-index.sh erzeugt
+web/rezepte.json
+web/.rezepte-*.json
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp

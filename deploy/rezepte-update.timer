@@ -1,0 +1,16 @@
+[Unit]
+Description=Rezepte stündlich und um 08:50 (Europe/Berlin) aktualisieren
+
+[Timer]
+# stündlich zur vollen Stunde
+OnCalendar=hourly
+# kurz nachdem die Claude-Aufgabe die neuen Rezepte ablegt
+OnCalendar=*-*-* 08:50:00 Europe/Berlin
+# nach dem Booten einmal nachholen
+OnBootSec=2min
+Persistent=true
+AccuracySec=30s
+Unit=rezepte-update.service
+
+[Install]
+WantedBy=timers.target

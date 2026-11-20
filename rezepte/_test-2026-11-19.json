@@ -1,0 +1,67 @@
+{
+  "datum": "2026-11-19",
+  "rezepte": [
+    {
+      "name": "Shakshuka mit Feta",
+      "beschreibung": "Eier in würziger Tomaten-Paprika-Sauce, mit Feta und Petersilie. Perfekt mit Fladenbrot.",
+      "kueche": "israelisch",
+      "typ": "Pfannengericht",
+      "zeit_aktiv_min": 15,
+      "zeit_passiv_min": 15,
+      "portionen": 2,
+      "zutaten": [
+        "1 rote Paprika",
+        "1 Zwiebel",
+        "2 Zehen Knoblauch",
+        "1 Dose gehackte Tomaten (400 g)",
+        "4 Eier",
+        "80 g Feta",
+        "1 TL Kreuzkümmel",
+        "1 TL edelsüßes Paprikapulver",
+        "½ TL Chiliflocken",
+        "2 EL Olivenöl",
+        "½ Bund glatte Petersilie",
+        "1 Fladenbrot",
+        "Salz, Pfeffer"
+      ],
+      "schritte": [
+        "Paprika und Zwiebel in Streifen schneiden, Knoblauch fein hacken.",
+        "Olivenöl in einer großen Pfanne erhitzen, Zwiebel und Paprika 6–8 Minuten weich braten.",
+        "Knoblauch und Gewürze 1 Minute mitrösten, Tomaten zugeben und 10 Minuten einköcheln lassen. Salzen und pfeffern.",
+        "Mit einem Löffel vier Mulden in die Sauce drücken und je ein Ei hineingleiten lassen.",
+        "Zugedeckt 5–7 Minuten stocken lassen, bis das Eiweiß fest, das Eigelb aber noch flüssig ist.",
+        "Feta darüberbröseln, mit Petersilie bestreuen und direkt aus der Pfanne mit Fladenbrot servieren."
+      ],
+      "tags": ["vegetarisch"]
+    },
+    {
+      "name": "Käsespätzle mit Röstzwiebeln",
+      "beschreibung": "Selbstgemachte Spätzle, geschichtet mit würzigem Bergkäse und knusprigen Zwiebeln.",
+      "kueche": "schwäbisch",
+      "typ": "Hauptgericht",
+      "zeit_aktiv_min": 40,
+      "zeit_passiv_min": 15,
+      "portionen": 2,
+      "zutaten": [
+        "250 g Mehl (Type 405)",
+        "3 Eier",
+        "80 ml Wasser",
+        "150 g Bergkäse",
+        "2 Zwiebeln",
+        "30 g Butter",
+        "1 Prise Muskatnuss",
+        "Salz, Pfeffer",
+        "½ Bund Schnittlauch"
+      ],
+      "schritte": [
+        "Mehl, Eier, Wasser und 1 TL Salz mit einem Kochlöffel zu einem zähen Teig schlagen, bis er Blasen wirft. 15 Minuten ruhen lassen.",
+        "Ofen auf 80 °C vorheizen und eine Auflaufform hineinstellen. Käse reiben.",
+        "Zwiebeln in Ringe schneiden und in der Butter bei mittlerer Hitze 12–15 Minuten goldbraun rösten.",
+        "Salzwasser in einem großen Topf aufkochen. Teig portionsweise mit der Spätzlepresse ins Wasser drücken, aufschwimmen lassen und mit der Schaumkelle herausheben.",
+        "Spätzle lagenweise mit Käse in die warme Form schichten, jede Lage leicht pfeffern.",
+        "Mit Röstzwiebeln und Schnittlauch belegt servieren."
+      ],
+      "tags": ["vegetarisch", "Wohlfühlessen"]
+    }
+  ]
+}

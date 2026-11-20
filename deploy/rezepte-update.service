@@ -1,0 +1,29 @@
+[Unit]
+Description=Rezepte: Repo ziehen, Index bauen, Webseite veröffentlichen
+Documentation=file:///opt/rezepte/README.md
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=rezepte
+Group=rezepte
+Environment=REPO_DIR=/opt/rezepte
+Environment=WEB_ROOT=/var/www/rezepte
+ExecStart=/opt/rezepte/scripts/update.sh
+TimeoutStartSec=5min
+# Läuft neben Plex & Co. – möglichst wenig stören
+Nice=10
+IOSchedulingClass=idle
+
+# Härtung: nur Repo, Web-Root und das eigene Home sind beschreibbar
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=yes
+ReadWritePaths=/opt/rezepte /var/www/rezepte /var/lib/rezepte
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+RestrictSUIDSGID=yes
+LockPersonality=yes

@@ -1,0 +1,120 @@
+{
+  "datum": "2026-11-16",
+  "rezepte": [
+    {
+      "name": "Griechische Kritharaki mit Kürbis und Feta",
+      "beschreibung": "Kritharaki-Nudeln im Ofen in Tomatensauce gegart, nach Giouvetsi-Art, mit Hokkaido und überbackenem Feta.",
+      "kueche": "griechisch",
+      "typ": "Ofengericht",
+      "zeit_aktiv_min": 15,
+      "zeit_passiv_min": 40,
+      "portionen": 2,
+      "zutaten": [
+        "200 g Kritharaki (Reisnudeln aus Hartweizen)",
+        "400 g Hokkaido-Kürbis",
+        "1 Zwiebel",
+        "2 Zehen Knoblauch",
+        "1 Dose gehackte Tomaten (400 g)",
+        "1 EL Tomatenmark",
+        "400 ml heiße Gemüsebrühe",
+        "1 TL getrockneter Oregano",
+        "½ TL Zimt",
+        "2 EL Olivenöl",
+        "150 g Feta",
+        "½ Bund Petersilie",
+        "Salz, Pfeffer"
+      ],
+      "schritte": [
+        "Ofen auf 200 °C Ober-/Unterhitze vorheizen.",
+        "Kürbis entkernen und mit Schale in 1–2 cm große Würfel schneiden. Zwiebel und Knoblauch fein würfeln.",
+        "Kritharaki, Kürbis, Zwiebel, Knoblauch, Tomaten, Tomatenmark, Brühe, Oregano, Zimt und Olivenöl in einer Auflaufform mischen. Mit Salz und Pfeffer würzen.",
+        {
+          "text": "Mit Alufolie abdecken und 25 Min. backen.",
+          "timer_min": 25
+        },
+        {
+          "text": "Umrühren und den Feta darüberbröseln. Dann ohne Folie noch 12–15 Min. backen, bis die Nudeln weich sind und der Feta Farbe hat.",
+          "timer_min": 12
+        },
+        "Mit gehackter Petersilie bestreuen."
+      ],
+      "tags": [
+        "vegetarisch"
+      ],
+      "ablauf": [
+        "Ofen vorheizen, Brühe erhitzen",
+        "Kürbis, Zwiebel, Knoblauch schneiden",
+        "Alles in die Form, 25 min abgedeckt backen",
+        "Feta drüber, 12–15 min offen backen"
+      ],
+      "utensilien": [
+        "Auflaufform (ca. 20 × 30 cm)",
+        "Alufolie",
+        "Großes Messer"
+      ],
+      "vorab": [
+        "Ofen auf 200 °C vorheizen",
+        "Gemüsebrühe erhitzen"
+      ]
+    },
+    {
+      "name": "Paprikás krumpli mit Räuchertofu",
+      "beschreibung": "Ungarischer Paprika-Kartoffeleintopf. Der Räuchertofu ersetzt die übliche Wurst, saure Sahne kommt obendrauf.",
+      "kueche": "ungarisch",
+      "typ": "Eintopf",
+      "zeit_aktiv_min": 20,
+      "zeit_passiv_min": 25,
+      "portionen": 2,
+      "zutaten": [
+        "600 g festkochende Kartoffeln",
+        "200 g Räuchertofu",
+        "1 große Zwiebel",
+        "1 rote Paprika",
+        "2 Zehen Knoblauch",
+        "2 EL Öl",
+        "1 EL Tomatenmark",
+        "1 EL Paprikapulver edelsüß",
+        "1 TL geräuchertes Paprikapulver",
+        "½ TL Kümmel (gemahlen oder ganz)",
+        "500 ml Gemüsebrühe",
+        "100 g saure Sahne oder Schmand",
+        "Salz, Pfeffer",
+        "Petersilie zum Servieren (optional)"
+      ],
+      "schritte": [
+        "Kartoffeln schälen und in mundgerechte Stücke schneiden. Zwiebel würfeln, Paprika in Streifen schneiden, Knoblauch hacken, Tofu würfeln.",
+        {
+          "text": "Öl in einem Topf erhitzen. Den Tofu darin 4–5 Min. knusprig braten, herausnehmen und beiseitestellen.",
+          "timer_min": 4
+        },
+        {
+          "text": "Zwiebel im selben Topf 3–4 Min. glasig dünsten. Knoblauch, Paprika und Tomatenmark dazugeben und 1 Min. mitbraten.",
+          "timer_min": 3
+        },
+        "Den Topf kurz vom Herd nehmen und Paprikapulver und Kümmel einrühren. So verbrennt das Paprikapulver nicht und wird nicht bitter.",
+        {
+          "text": "Kartoffeln und Brühe dazugeben, salzen und aufkochen. Halb zugedeckt 20–25 Min. köcheln, bis die Kartoffeln weich sind und der Eintopf leicht sämig ist.",
+          "timer_min": 20
+        },
+        "Den Tofu unterheben und mit Salz und Pfeffer abschmecken. Mit je einem Klecks saurer Sahne und etwas Petersilie servieren."
+      ],
+      "tags": [
+        "vegetarisch",
+        "glutenfrei",
+        "Wohlfühlessen"
+      ],
+      "ablauf": [
+        "Kartoffeln, Gemüse und Tofu schneiden",
+        "Tofu knusprig braten, rausnehmen",
+        "Zwiebel, Paprika anschwitzen, Gewürze einrühren",
+        "20–25 min köcheln – Zeit für den Abwasch",
+        "Tofu unterheben, mit saurer Sahne servieren"
+      ],
+      "utensilien": [
+        "Großer Topf",
+        "Sparschäler"
+      ],
+      "vorab": []
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "datum": "2026-11-18",
+  "rezepte": [
+    {
+      "name": "Giouvetsi mit Feta",
+      "beschreibung": "Griechische Kritharaki-Nudeln, im Ofen in würziger Tomatensoße mit Hack gegart.",
+      "kueche": "griechisch",
+      "typ": "Ofengericht",
+      "zeit_aktiv_min": 15,
+      "zeit_passiv_min": 30,
+      "portionen": 2,
+      "zutaten": [
+        "250 g veganes Hack (oder Rinderhack)",
+        "200 g Kritharaki (Reisnudeln)",
+        "1 Zwiebel",
+        "2 Zehen Knoblauch",
+        "1 Möhre",
+        "1 EL Tomatenmark",
+        "1 Dose gehackte Tomaten (400 g)",
+        "400 ml heiße Gemüsebrühe",
+        "1 TL Oregano",
+        "1 TL Paprikapulver edelsüß",
+        "½ TL Zimt",
+        "100 g Feta",
+        "2 EL Olivenöl",
+        "Salz, Pfeffer",
+        "Petersilie zum Servieren (optional)"
+      ],
+      "schritte": [
+        "Ofen auf 200 °C Ober-/Unterhitze vorheizen.",
+        "Zwiebel und Knoblauch fein hacken, Möhre fein würfeln.",
+        "Öl in einer Pfanne erhitzen, Hack darin krümelig anbraten.",
+        "Zwiebel, Knoblauch und Möhre 2–3 Min. mitbraten. Tomatenmark und Gewürze kurz mitrösten.",
+        "Tomaten, Brühe und Kritharaki unterrühren, salzen und pfeffern. Alles in eine Auflaufform geben.",
+        {
+          "text": "Abgedeckt (Deckel oder Alufolie) ca. 25 Min. backen, nach der Hälfte einmal umrühren.",
+          "timer_min": 25
+        },
+        {
+          "text": "Feta darüberbröseln und offen weitere 5 Min. backen. Mit Petersilie bestreuen.",
+          "timer_min": 5
+        }
+      ],
+      "tags": [
+        "vegan-möglich"
+      ],
+      "ablauf": [
+        "Ofen vorheizen, Brühe erhitzen, Gemüse schneiden",
+        "Hack anbraten, Gemüse und Gewürze dazu",
+        "Tomaten, Brühe, Nudeln rein, ab in die Form",
+        "25 min abgedeckt backen – Zeit zum Aufräumen",
+        "Feta drüber, 5 min offen backen"
+      ],
+      "utensilien": [
+        "Pfanne",
+        "Auflaufform mit Deckel oder Alufolie"
+      ],
+      "vorab": [
+        "Ofen auf 200 °C vorheizen",
+        "Gemüsebrühe erhitzen"
+      ]
+    },
+    {
+      "name": "Pytt i panna mit Roter Bete",
+      "beschreibung": "Schwedische Bratkartoffel-Pfanne mit Roter Bete, Räuchertofu und Spiegelei.",
+      "kueche": "schwedisch",
+      "typ": "Pfannengericht",
+      "zeit_aktiv_min": 20,
+      "zeit_passiv_min": 15,
+      "portionen": 2,
+      "zutaten": [
+        "600 g festkochende Kartoffeln",
+        "250 g vorgegarte Rote Bete (vakuumiert)",
+        "150 g Räuchertofu",
+        "1 große Zwiebel",
+        "4 Eier",
+        "3 EL Rapsöl oder Butterschmalz",
+        "1 TL Butter",
+        "1 TL getrockneter Majoran oder Thymian",
+        "Salz, Pfeffer",
+        "2–3 Gewürzgurken zum Servieren",
+        "2 EL Schmand zum Servieren",
+        "Schnittlauch zum Servieren"
+      ],
+      "schritte": [
+        "Kartoffeln schälen und in ca. 1 cm große Würfel schneiden.",
+        {
+          "text": "2 EL Öl in einer großen Pfanne erhitzen. Kartoffeln darin bei mittlerer bis hoher Hitze ca. 15 Min. braten, zwischendurch wenden.",
+          "timer_min": 15
+        },
+        "In der Zeit Zwiebel, Tofu und Rote Bete ebenfalls würfeln.",
+        {
+          "text": "Zwiebel und Tofu zu den Kartoffeln geben und 5 Min. mitbraten, bis alles goldbraun ist.",
+          "timer_min": 5
+        },
+        "Rote Bete unterheben und 2–3 Min. erhitzen. Mit Salz, Pfeffer und Majoran würzen.",
+        "In einer zweiten Pfanne Butter und restliches Öl erhitzen, 4 Spiegeleier braten.",
+        "Pfanne auf Teller verteilen, je 2 Spiegeleier darauflegen. Mit Gewürzgurken, Schmand und Schnittlauch servieren."
+      ],
+      "tags": [
+        "vegetarisch",
+        "glutenfrei"
+      ],
+      "ablauf": [
+        "Kartoffeln würfeln und anbraten",
+        "15 min braten, währenddessen Zwiebel, Tofu, Bete würfeln",
+        "Zwiebel und Tofu mitbraten, Bete unterheben",
+        "Spiegeleier braten, servieren"
+      ],
+      "utensilien": [
+        "Große Pfanne",
+        "Zweite Pfanne für die Eier",
+        "Sparschäler"
+      ],
+      "vorab": []
+    }
+  ]
+}

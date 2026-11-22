@@ -1,0 +1,127 @@
+{
+  "datum": "2026-11-19",
+  "rezepte": [
+    {
+      "name": "Griechische Ofenbohnen mit Feta (Gigantes-Art)",
+      "beschreibung": "Weiße Bohnen in würziger Tomatensoße, mit Feta überbacken.",
+      "kueche": "griechisch",
+      "typ": "Ofengericht",
+      "zeit_aktiv_min": 15,
+      "zeit_passiv_min": 35,
+      "portionen": 2,
+      "zutaten": [
+        "2 Dosen weiße Riesenbohnen oder Cannellini (je 400 g)",
+        "1 Zwiebel",
+        "1 Möhre",
+        "2 Zehen Knoblauch",
+        "1 Dose gehackte Tomaten (400 g)",
+        "1 EL Tomatenmark",
+        "3 EL Olivenöl",
+        "1 TL Oregano",
+        "½ TL Paprikapulver edelsüß",
+        "1 Prise Zucker",
+        "100 ml Wasser",
+        "½ Bund Petersilie oder Dill",
+        "100 g Feta",
+        "Salz, Pfeffer",
+        "Brot zum Servieren"
+      ],
+      "schritte": [
+        "Ofen auf 200 °C Ober-/Unterhitze vorheizen.",
+        "Zwiebel und Möhre fein würfeln, Knoblauch hacken. Bohnen abgießen und abspülen.",
+        {
+          "text": "2 EL Öl in einer Pfanne erhitzen. Zwiebel und Möhre darin 5 Min. andünsten.",
+          "timer_min": 5
+        },
+        "Knoblauch und Tomatenmark zugeben und 1 Min. mitrösten.",
+        "Tomaten, Wasser, Oregano, Paprika und Zucker einrühren und aufkochen. Mit Salz und Pfeffer abschmecken.",
+        "Bohnen und die Hälfte der gehackten Kräuter unterheben. Alles in eine Auflaufform geben. Feta darüberbröseln und mit 1 EL Öl beträufeln.",
+        {
+          "text": "30–35 Min. backen, bis es am Rand blubbert und der Feta leicht gebräunt ist.",
+          "timer_min": 30
+        },
+        "Mit den restlichen Kräutern bestreuen und mit Brot servieren."
+      ],
+      "tags": [
+        "vegetarisch",
+        "Wohlfühlessen"
+      ],
+      "ablauf": [
+        "Ofen vorheizen, Gemüse schneiden",
+        "Gemüse andünsten, Sauce ansetzen",
+        "Bohnen rein, Feta drüber",
+        "30–35 min backen – Zeit zum Aufräumen"
+      ],
+      "utensilien": [
+        "Pfanne",
+        "Auflaufform",
+        "Sieb",
+        "Dosenöffner"
+      ],
+      "vorab": [
+        "Ofen auf 200 °C vorheizen"
+      ]
+    },
+    {
+      "name": "Łazanki – polnische Nudelpfanne mit Kraut und Pilzen",
+      "beschreibung": "Kurze Nudeln mit geschmortem Kohl, Sauerkraut, Champignons und Räuchertofu.",
+      "kueche": "polnisch",
+      "typ": "Pfannengericht",
+      "zeit_aktiv_min": 20,
+      "zeit_passiv_min": 12,
+      "portionen": 2,
+      "zutaten": [
+        "200 g kurze Nudeln (z. B. Fleckerl, Farfalle oder zerbrochene Lasagneplatten)",
+        "250 g Weißkohl oder Spitzkohl",
+        "250 g Sauerkraut",
+        "250 g Champignons",
+        "150 g Räuchertofu",
+        "1 Zwiebel",
+        "1 EL Öl",
+        "1 EL Butter",
+        "1 TL Paprikapulver edelsüß",
+        "½ TL Kümmel",
+        "1 Lorbeerblatt",
+        "100 ml Gemüsebrühe",
+        "2–3 EL Schmand oder saure Sahne",
+        "1 Handvoll Dill oder Petersilie",
+        "Salz, Pfeffer"
+      ],
+      "schritte": [
+        "Kohl in feine Streifen schneiden und die Zwiebel würfeln. Pilze in Scheiben schneiden und den Tofu würfeln. Sauerkraut ausdrücken und grob hacken.",
+        {
+          "text": "Öl in einer großen Pfanne erhitzen. Den Tofu darin 4–5 Min. knusprig braten, dann herausnehmen.",
+          "timer_min": 4
+        },
+        {
+          "text": "Butter in die Pfanne geben. Zwiebel und Pilze darin ca. 5 Min. braten.",
+          "timer_min": 5
+        },
+        {
+          "text": "Kohl, Sauerkraut, Kümmel, Paprika, Lorbeer und Brühe zugeben. Zugedeckt 10–12 Min. schmoren lassen.",
+          "timer_min": 10
+        },
+        "In der Zwischenzeit die Nudeln in Salzwasser bissfest kochen und abgießen.",
+        "Nudeln und Tofu unter das Kraut heben und 2 Min. mitbraten. Lorbeer entfernen. Mit Pfeffer und vorsichtig mit Salz abschmecken, denn das Sauerkraut ist schon salzig.",
+        "Mit einem Klecks Schmand und Kräutern servieren."
+      ],
+      "tags": [
+        "vegetarisch"
+      ],
+      "ablauf": [
+        "Kohl, Zwiebel, Pilze, Tofu schneiden",
+        "Tofu braten, dann Zwiebel und Pilze",
+        "Kraut 10–12 min schmoren, währenddessen Nudeln kochen",
+        "Alles zusammen kurz braten, servieren"
+      ],
+      "utensilien": [
+        "Große Pfanne mit Deckel",
+        "Topf für Nudeln",
+        "Sieb"
+      ],
+      "vorab": [
+        "Nudelwasser aufsetzen"
+      ]
+    }
+  ]
+}

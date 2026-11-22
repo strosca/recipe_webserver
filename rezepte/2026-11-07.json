@@ -1,0 +1,118 @@
+{
+  "datum": "2026-11-07",
+  "rezepte": [
+    {
+      "name": "Ofen-Gnocchi mit Kürbis, Salbei und Mozzarella",
+      "beschreibung": "Gnocchi und Hokkaido auf einem Blech im Ofen geröstet, mit geschmolzenem Mozzarella.",
+      "kueche": "italienisch",
+      "typ": "Ofengericht",
+      "zeit_aktiv_min": 15,
+      "zeit_passiv_min": 30,
+      "portionen": 2,
+      "zutaten": [
+        "400 g Gnocchi (Kühlregal)",
+        "½ Stück Hokkaido-Kürbis (ca. 500 g)",
+        "1 rote Zwiebel",
+        "2 Zehen Knoblauch",
+        "3 EL Olivenöl",
+        "6–8 Blätter frischer Salbei (oder 1 TL getrocknet)",
+        "125 g Mozzarella",
+        "2 EL geriebener Parmesan",
+        "1 Handvoll Walnüsse (optional)",
+        "1 Prise Chiliflocken",
+        "Salz, Pfeffer"
+      ],
+      "schritte": [
+        "Ofen auf 210 °C Ober-/Unterhitze vorheizen.",
+        "Kürbis entkernen (nicht schälen) und in 2 cm große Würfel schneiden. Zwiebel in Spalten schneiden, Knoblauch andrücken.",
+        {
+          "text": "Kürbis, Zwiebel und Knoblauch mit 2 EL Öl, Salz, Pfeffer und Chili auf einem Blech vermengen. 15 Min. backen.",
+          "timer_min": 15
+        },
+        {
+          "text": "Gnocchi, Salbei und das übrige Öl dazugeben, alles wenden. Weitere 12 Min. backen, bis die Gnocchi goldbraun sind.",
+          "timer_min": 12
+        },
+        {
+          "text": "Mozzarella zerzupfen und mit Parmesan und Walnüssen darüber verteilen. Noch 3–5 Min. backen, bis der Käse schmilzt.",
+          "timer_min": 3
+        }
+      ],
+      "tags": [
+        "vegetarisch",
+        "Wohlfühlessen"
+      ],
+      "ablauf": [
+        "Ofen vorheizen, Kürbis und Zwiebel schneiden",
+        "Gemüse würzen, 15 min backen",
+        "Gnocchi und Salbei dazu, 12 min backen",
+        "Käse drüber, 3–5 min überbacken"
+      ],
+      "utensilien": [
+        "Backblech",
+        "Großes Messer",
+        "Löffel zum Entkernen"
+      ],
+      "vorab": [
+        "Ofen auf 210 °C vorheizen"
+      ]
+    },
+    {
+      "name": "Prassorizo – griechischer Lauch-Reis mit Feta",
+      "beschreibung": "Ein Topf mit saftigem Lauch, Reis, Zitrone und Dill, dazu zerbröselter Feta.",
+      "kueche": "griechisch",
+      "typ": "Eintopf",
+      "zeit_aktiv_min": 15,
+      "zeit_passiv_min": 25,
+      "portionen": 2,
+      "zutaten": [
+        "2 Stangen Lauch (ca. 500 g)",
+        "1 Zwiebel",
+        "1 Möhre",
+        "3 EL Olivenöl",
+        "150 g Langkornreis",
+        "1 EL Tomatenmark",
+        "1 TL Paprikapulver edelsüß",
+        "450 ml Gemüsebrühe",
+        "1 Stück Bio-Zitrone (Saft und etwas Abrieb)",
+        "½ Bund Dill oder Petersilie",
+        "150 g Feta",
+        "2 EL griechischer Joghurt (optional)",
+        "Salz, Pfeffer"
+      ],
+      "schritte": [
+        "Lauch längs halbieren, waschen und in 1 cm breite Ringe schneiden. Zwiebel würfeln, Möhre fein würfeln oder raspeln.",
+        {
+          "text": "Öl in einem breiten Topf erhitzen. Zwiebel und Möhre 3 Min. anschwitzen, dann den Lauch dazugeben und 5 Min. mitdünsten, bis er zusammenfällt.",
+          "timer_min": 5
+        },
+        "Reis, Tomatenmark und Paprikapulver unterrühren und 1 Min. mitrösten.",
+        {
+          "text": "Mit der Brühe ablöschen, salzen und pfeffern. Zugedeckt bei kleiner Hitze 18–20 Min. köcheln lassen.",
+          "timer_min": 18
+        },
+        {
+          "text": "Vom Herd nehmen und zugedeckt 5 Min. ziehen lassen. Zitronensaft, Abrieb und gehackten Dill unterheben.",
+          "timer_min": 5
+        },
+        "Mit zerbröseltem Feta und einem Klecks Joghurt servieren."
+      ],
+      "tags": [
+        "vegetarisch",
+        "glutenfrei"
+      ],
+      "ablauf": [
+        "Lauch, Zwiebel, Möhre schneiden",
+        "Gemüse andünsten, Reis mitrösten",
+        "Brühe dazu, 20 min köcheln – Zeit für den Abwasch",
+        "5 min ziehen lassen, Zitrone und Dill unterheben",
+        "Mit Feta servieren"
+      ],
+      "utensilien": [
+        "Breiter Topf mit Deckel",
+        "Reibe"
+      ],
+      "vorab": []
+    }
+  ]
+}

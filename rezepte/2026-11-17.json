@@ -1,0 +1,122 @@
+{
+  "datum": "2026-11-17",
+  "rezepte": [
+    {
+      "name": "Griechische Ofenbohnen mit Feta",
+      "beschreibung": "Weiße Bohnen in würziger Tomatensoße mit Möhren und Lauch, mit Feta überbacken (nach Art der Gigantes plaki).",
+      "kueche": "griechisch",
+      "typ": "Ofengericht",
+      "zeit_aktiv_min": 15,
+      "zeit_passiv_min": 35,
+      "portionen": 2,
+      "zutaten": [
+        "2 Dosen weiße Riesenbohnen oder Cannellini (je 400 g, abgetropft)",
+        "1 Dose stückige Tomaten (400 g)",
+        "1 Zwiebel",
+        "2 Zehen Knoblauch",
+        "1 Möhre",
+        "1 Stange Lauch (klein)",
+        "3 EL Olivenöl",
+        "1 EL Tomatenmark",
+        "1 TL getrockneter Oregano",
+        "½ TL Paprikapulver edelsüß",
+        "1 Prise Zucker",
+        "100 ml Wasser",
+        "100 g Feta",
+        "Salz, Pfeffer",
+        "1 Handvoll Petersilie oder Dill (optional)",
+        "Brot zum Servieren"
+      ],
+      "schritte": [
+        "Ofen auf 200 °C Ober-/Unterhitze vorheizen.",
+        "Zwiebel und Knoblauch fein hacken. Möhre klein würfeln, Lauch in dünne Ringe schneiden.",
+        {
+          "text": "Olivenöl in einer ofenfesten Pfanne erhitzen. Zwiebel, Möhre und Lauch 5 Min. andünsten.",
+          "timer_min": 5
+        },
+        "Knoblauch und Tomatenmark kurz mitrösten.",
+        "Tomaten, Wasser, Oregano, Paprika, Zucker, Salz und Pfeffer zugeben.",
+        "Bohnen unterrühren. Alles in eine Auflaufform geben, falls die Pfanne nicht ofenfest ist.",
+        {
+          "text": "Feta darüberbröseln und 35 Min. backen, bis die Soße eingedickt ist und der Feta Farbe hat.",
+          "timer_min": 35
+        },
+        "Mit Kräutern bestreuen und mit Brot servieren."
+      ],
+      "tags": [
+        "vegetarisch",
+        "Wohlfühlessen"
+      ],
+      "ablauf": [
+        "Ofen vorheizen, Gemüse schneiden",
+        "Gemüse andünsten, Tomaten und Bohnen dazu",
+        "Feta drüber, 35 min backen – Zeit zum Aufräumen",
+        "Kräuter drüber, mit Brot servieren"
+      ],
+      "utensilien": [
+        "Ofenfeste Pfanne oder Pfanne plus Auflaufform",
+        "Sieb",
+        "Dosenöffner"
+      ],
+      "vorab": [
+        "Ofen auf 200 °C vorheizen"
+      ]
+    },
+    {
+      "name": "Krautfleckerl",
+      "beschreibung": "Österreichisch-ungarischer Klassiker: Nudeln mit karamellisiertem Weißkohl, Zwiebeln und Paprika. Dazu passt ein Klecks Schmand.",
+      "kueche": "österreichisch",
+      "typ": "Pfannengericht",
+      "zeit_aktiv_min": 20,
+      "zeit_passiv_min": 15,
+      "portionen": 2,
+      "zutaten": [
+        "400 g Weißkohl (oder Spitzkohl)",
+        "1 große Zwiebel",
+        "2 EL Butter oder Öl",
+        "1 TL Zucker",
+        "1 TL Paprikapulver edelsüß",
+        "½ TL Kümmel (ganz oder gemahlen)",
+        "100 ml Gemüsebrühe",
+        "200 g Fleckerl oder kurze Nudeln, z. B. Farfalle oder Quadretti",
+        "Salz, Pfeffer",
+        "2 EL Schmand oder saure Sahne zum Servieren",
+        "Schnittlauch zum Servieren (optional)"
+      ],
+      "schritte": [
+        "Kohl vierteln, Strunk entfernen und in ca. 1–2 cm große Stücke schneiden. Zwiebel fein würfeln.",
+        "Butter in einer großen Pfanne erhitzen und den Zucker darin leicht karamellisieren.",
+        {
+          "text": "Zwiebel zugeben und 3 Min. anbraten. Dann den Kohl zugeben und bei mittlerer bis hoher Hitze 5 Min. braten, bis er Röstspuren hat.",
+          "timer_min": 5
+        },
+        "Paprika und Kümmel unterrühren und mit der Brühe ablöschen.",
+        {
+          "text": "Deckel auflegen und 15 Min. bei schwacher Hitze schmoren, bis der Kohl weich ist.",
+          "timer_min": 15
+        },
+        "Währenddessen die Nudeln in Salzwasser nach Packungsangabe kochen und abgießen.",
+        "Nudeln unter den Kohl mischen, kräftig mit Salz und Pfeffer abschmecken und noch 1–2 Min. mitbraten.",
+        "Mit je einem Klecks Schmand und etwas Schnittlauch servieren."
+      ],
+      "tags": [
+        "vegetarisch",
+        "Wohlfühlessen"
+      ],
+      "ablauf": [
+        "Kohl und Zwiebel schneiden",
+        "Zucker karamellisieren, Kohl anrösten",
+        "15 min schmoren, währenddessen Nudeln kochen",
+        "Nudeln unterschwenken, abschmecken"
+      ],
+      "utensilien": [
+        "Große Pfanne mit Deckel",
+        "Topf für Nudeln",
+        "Sieb"
+      ],
+      "vorab": [
+        "Nudelwasser aufsetzen"
+      ]
+    }
+  ]
+}

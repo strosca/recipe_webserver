@@ -1,0 +1,121 @@
+{
+  "datum": "2026-11-15",
+  "rezepte": [
+    {
+      "name": "Ofen-Gnocchi mit Rosenkohl und Gorgonzola",
+      "beschreibung": "Knusprige Gnocchi vom Blech mit geröstetem Rosenkohl, Walnüssen und schmelzendem Gorgonzola.",
+      "kueche": "italienisch",
+      "typ": "Ofengericht",
+      "zeit_aktiv_min": 10,
+      "zeit_passiv_min": 25,
+      "portionen": 2,
+      "zutaten": [
+        "500 g Gnocchi (Kühlregal)",
+        "400 g Rosenkohl",
+        "1 rote Zwiebel",
+        "3 EL Olivenöl",
+        "1 TL getrockneter Thymian",
+        "100 g Gorgonzola (milder: Feta)",
+        "40 g Walnusskerne",
+        "1 TL Honig (optional)",
+        "Salz, Pfeffer"
+      ],
+      "schritte": [
+        "Ofen auf 220 °C Ober-/Unterhitze (200 °C Umluft) vorheizen.",
+        "Rosenkohl putzen und halbieren, Zwiebel in Spalten schneiden.",
+        "Gnocchi, Rosenkohl und Zwiebel auf einem Blech mit Öl, Thymian, Salz und Pfeffer mischen, flach verteilen.",
+        {
+          "text": "15 Min. backen, dann einmal wenden.",
+          "timer_min": 15
+        },
+        "Walnüsse grob hacken, mit dem zerbröselten Gorgonzola darüber verteilen.",
+        {
+          "text": "Weitere 8–10 Min. backen, bis alles goldbraun ist. Nach Wunsch mit etwas Honig beträufeln.",
+          "timer_min": 8
+        }
+      ],
+      "tags": [
+        "vegetarisch",
+        "schnell"
+      ],
+      "ablauf": [
+        "Ofen vorheizen, Rosenkohl und Zwiebel schneiden",
+        "Alles aufs Blech, 15 min backen",
+        "Wenden, Walnüsse und Gorgonzola drüber",
+        "8–10 min fertig backen"
+      ],
+      "utensilien": [
+        "Backblech",
+        "Messer und Brett"
+      ],
+      "vorab": [
+        "Ofen auf 220 °C vorheizen"
+      ]
+    },
+    {
+      "name": "Ungarisches Linsengemüse mit Spiegelei",
+      "beschreibung": "Lencsefőzelék: cremig-säuerlicher Linseneintopf mit Paprika, dazu Ei und Brot.",
+      "kueche": "ungarisch",
+      "typ": "Eintopf",
+      "zeit_aktiv_min": 15,
+      "zeit_passiv_min": 30,
+      "portionen": 2,
+      "zutaten": [
+        "150 g Tellerlinsen (trocken)",
+        "1 Zwiebel",
+        "1 Möhre",
+        "1 Zehe Knoblauch",
+        "1 Lorbeerblatt",
+        "700 ml Gemüsebrühe",
+        "1 EL Butter",
+        "1 EL Öl",
+        "1 EL Mehl (gehäuft)",
+        "1 TL Paprikapulver edelsüß",
+        "1 TL mittelscharfer Senf",
+        "1–2 EL Weißweinessig",
+        "3 EL saure Sahne oder Schmand",
+        "2–4 Eier",
+        "1 Prise Zucker",
+        "Salz, Pfeffer",
+        "Bauernbrot zum Servieren"
+      ],
+      "schritte": [
+        "Linsen abspülen, Möhre schälen und klein würfeln.",
+        {
+          "text": "Linsen, Möhre, Lorbeer und Brühe aufkochen, zugedeckt ca. 25–30 Min. weich köcheln.",
+          "timer_min": 25
+        },
+        "Kurz vor Ende Zwiebel fein würfeln, Knoblauch hacken.",
+        {
+          "text": "Butter in einer kleinen Pfanne schmelzen, Zwiebel 3–4 Min. glasig dünsten, Knoblauch dazu.",
+          "timer_min": 3
+        },
+        "Mehl einstreuen, 1 Min. anschwitzen, Pfanne vom Herd nehmen und Paprika einrühren (verbrennt sonst leicht).",
+        {
+          "text": "Die Mehlschwitze in die Linsen rühren, 3–5 Min. sämig köcheln. Lorbeer entfernen.",
+          "timer_min": 3
+        },
+        "Mit Senf, Essig, Zucker, Salz und Pfeffer abschmecken, saure Sahne unterrühren.",
+        "Währenddessen in Öl Spiegeleier braten und auf das Linsengemüse setzen. Mit Brot servieren."
+      ],
+      "tags": [
+        "vegetarisch",
+        "Wohlfühlessen"
+      ],
+      "ablauf": [
+        "Linsen und Möhre aufsetzen",
+        "25–30 min köcheln – Zeit für den Abwasch",
+        "Zwiebel schneiden, Mehlschwitze machen",
+        "Schwitze einrühren, abschmecken",
+        "Spiegeleier braten, servieren"
+      ],
+      "utensilien": [
+        "Topf mit Deckel",
+        "Kleine Pfanne",
+        "Pfanne für die Eier",
+        "Sieb"
+      ],
+      "vorab": []
+    }
+  ]
+}

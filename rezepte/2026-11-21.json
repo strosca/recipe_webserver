@@ -1,0 +1,120 @@
+{
+  "datum": "2026-11-21",
+  "rezepte": [
+    {
+      "name": "Griechische Ofenbohnen mit Feta",
+      "beschreibung": "Große weiße Bohnen in würziger Tomatensauce, mit Feta überbacken – nach Art der griechischen Gigantes plaki.",
+      "kueche": "griechisch",
+      "typ": "Ofengericht",
+      "zeit_aktiv_min": 15,
+      "zeit_passiv_min": 40,
+      "portionen": 2,
+      "zutaten": [
+        "2 Dosen große weiße Bohnen, z. B. Butterbohnen (je 400 g, abgetropft)",
+        "1 Zwiebel",
+        "2 Zehen Knoblauch",
+        "1 Möhre",
+        "1 Dose stückige Tomaten (400 g)",
+        "1 EL Tomatenmark",
+        "3 EL Olivenöl",
+        "1 TL getrockneter Oregano",
+        "1 TL Paprikapulver edelsüß",
+        "½ TL Zucker",
+        "Salz, Pfeffer",
+        "100 g Feta",
+        "½ Bund Petersilie",
+        "Brot zum Servieren"
+      ],
+      "schritte": [
+        "Ofen auf 200 °C Ober-/Unterhitze vorheizen.",
+        {
+          "text": "Zwiebel, Knoblauch und Möhre fein würfeln, in 2 EL Olivenöl ca. 5 Min. andünsten.",
+          "timer_min": 5
+        },
+        "Tomatenmark, Oregano und Paprika 1 Min. mitrösten.",
+        "Tomaten, 150 ml Wasser, Zucker und Bohnen unterrühren, mit Salz und Pfeffer würzen.",
+        "In eine Auflaufform geben, Feta darüberbröseln, restliches Öl darüberträufeln.",
+        {
+          "text": "35–40 Min. backen, bis die Sauce eingedickt ist und der Feta Farbe hat.",
+          "timer_min": 35
+        },
+        "Mit gehackter Petersilie bestreuen, mit Brot servieren."
+      ],
+      "tags": [
+        "vegetarisch",
+        "Wohlfühlessen"
+      ],
+      "ablauf": [
+        "Ofen vorheizen, Gemüse würfeln",
+        "Gemüse andünsten, Gewürze mitrösten",
+        "Tomaten und Bohnen dazu, in die Form",
+        "Feta drüber, 35–40 min backen – Zeit zum Aufräumen",
+        "Petersilie drüber, mit Brot servieren"
+      ],
+      "utensilien": [
+        "Pfanne oder Topf",
+        "Auflaufform (ca. 20 × 30 cm)",
+        "Dosenöffner",
+        "Sieb"
+      ],
+      "vorab": [
+        "Ofen auf 200 °C vorheizen"
+      ]
+    },
+    {
+      "name": "Schupfnudeln mit Sauerkraut und Apfel",
+      "beschreibung": "Schwäbisches Pfannengericht: goldbraun gebratene Schupfnudeln mit Sauerkraut, Apfel und Räuchertofu.",
+      "kueche": "schwäbisch",
+      "typ": "Pfannengericht",
+      "zeit_aktiv_min": 20,
+      "zeit_passiv_min": 0,
+      "portionen": 2,
+      "zutaten": [
+        "500 g Schupfnudeln (Kühlregal)",
+        "300 g Sauerkraut (Beutel oder Glas)",
+        "1 Zwiebel",
+        "1 säuerlicher Apfel (z. B. Boskop)",
+        "150 g Räuchertofu (optional)",
+        "2 EL Rapsöl oder Butterschmalz",
+        "½ TL Kümmel (optional)",
+        "1 TL Paprikapulver edelsüß",
+        "Salz, Pfeffer",
+        "100 g Schmand oder saure Sahne",
+        "½ Bund Schnittlauch"
+      ],
+      "schritte": [
+        "Sauerkraut abtropfen lassen und leicht ausdrücken. Zwiebel in Streifen, Apfel und Tofu in kleine Würfel schneiden.",
+        {
+          "text": "1 EL Öl erhitzen, Tofu 4–5 Min. knusprig braten, Zwiebel 3 Min. mitbraten, beides herausnehmen.",
+          "timer_min": 4
+        },
+        {
+          "text": "Restliches Öl in die Pfanne, Schupfnudeln 6–8 Min. rundum goldbraun braten.",
+          "timer_min": 6
+        },
+        {
+          "text": "Sauerkraut, Apfel, Kümmel, Paprika sowie Tofu und Zwiebel zugeben, 5 Min. weiterbraten.",
+          "timer_min": 5
+        },
+        "Mit Salz und Pfeffer abschmecken.",
+        "Schmand mit gehacktem Schnittlauch verrühren und dazu servieren."
+      ],
+      "tags": [
+        "vegetarisch",
+        "schnell"
+      ],
+      "ablauf": [
+        "Sauerkraut ausdrücken, Zwiebel, Apfel, Tofu schneiden",
+        "Tofu und Zwiebel anbraten, rausnehmen",
+        "Schupfnudeln goldbraun braten",
+        "Alles zusammen 5 min weiterbraten",
+        "Schnittlauch-Schmand anrühren, servieren"
+      ],
+      "utensilien": [
+        "Große Pfanne",
+        "Sieb"
+      ],
+      "vorab": []
+    }
+  ]
+}

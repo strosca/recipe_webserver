@@ -1,0 +1,129 @@
+{
+  "datum": "2026-11-22",
+  "rezepte": [
+    {
+      "name": "Spanischer Ofenreis mit Kichererbsen",
+      "beschreibung": "Arroz al horno: Rundkornreis mit Kichererbsen, Kartoffel- und Tomatenscheiben, rauchig gewürzt und im Ofen gegart.",
+      "kueche": "spanisch",
+      "typ": "Ofengericht",
+      "zeit_aktiv_min": 15,
+      "zeit_passiv_min": 35,
+      "portionen": 2,
+      "zutaten": [
+        "150 g Rundkornreis (Risotto- oder Paellareis)",
+        "1 Dose Kichererbsen (400 g, abgetropft)",
+        "1 Stück festkochende Kartoffel (mittelgroß)",
+        "2 Tomaten",
+        "1 Zwiebel",
+        "4 Zehen Knoblauch",
+        "1 EL Tomatenmark",
+        "1 TL Paprikapulver geräuchert (oder edelsüß)",
+        "1 Prise Safran oder ½ TL Kurkuma (optional)",
+        "450 ml Gemüsebrühe",
+        "3 EL Olivenöl",
+        "Salz, Pfeffer",
+        "½ Bund Petersilie",
+        "1 Zitrone"
+      ],
+      "schritte": [
+        "Ofen auf 220 °C Ober-/Unterhitze vorheizen, Brühe erhitzen.",
+        "Kartoffel in 0,5 cm dünne Scheiben, Tomaten in Scheiben schneiden. Zwiebel und Knoblauch fein würfeln.",
+        {
+          "text": "2 EL Öl in einer Pfanne erhitzen, Kartoffelscheiben 3 Min. anbraten, herausnehmen.",
+          "timer_min": 3
+        },
+        {
+          "text": "Zwiebel und Knoblauch 3 Min. dünsten, Tomatenmark und Paprika 1 Min. mitrösten.",
+          "timer_min": 3
+        },
+        "Reis und Kichererbsen unterrühren, mit heißer Brühe und Safran aufgießen, salzen, pfeffern, kurz aufkochen.",
+        "In eine Auflaufform geben (oder in der ofenfesten Pfanne lassen), Kartoffel- und Tomatenscheiben darauflegen, restliches Öl darüberträufeln.",
+        {
+          "text": "30–35 Min. backen, nicht umrühren, bis der Reis gar ist und die Brühe aufgesogen hat.",
+          "timer_min": 30
+        },
+        {
+          "text": "5 Min. ruhen lassen, mit gehackter Petersilie und Zitronenspalten servieren.",
+          "timer_min": 5
+        }
+      ],
+      "tags": [
+        "vegan",
+        "glutenfrei"
+      ],
+      "ablauf": [
+        "Ofen vorheizen, Brühe erhitzen",
+        "Kartoffel, Tomaten, Zwiebel, Knoblauch schneiden",
+        "Kartoffeln anbraten, Basis anschwitzen",
+        "Reis aufgießen, belegen, in den Ofen",
+        "30–35 min backen – Zeit zum Aufräumen",
+        "Kurz ruhen lassen, mit Zitrone servieren"
+      ],
+      "utensilien": [
+        "Ofenfeste Pfanne oder Pfanne plus Auflaufform",
+        "Kleiner Topf für die Brühe",
+        "Sieb"
+      ],
+      "vorab": [
+        "Ofen auf 220 °C vorheizen",
+        "Gemüsebrühe erhitzen"
+      ]
+    },
+    {
+      "name": "Pasta mit Rosenkohl, Zitrone und Walnüssen",
+      "beschreibung": "Italienisch inspiriertes Pfannengericht: kräftig angebratener Rosenkohl mit Zitrone, gerösteten Walnüssen und Parmesan.",
+      "kueche": "italienisch",
+      "typ": "Pasta",
+      "zeit_aktiv_min": 20,
+      "zeit_passiv_min": 0,
+      "portionen": 2,
+      "zutaten": [
+        "200 g Pasta (z. B. Orecchiette oder Penne)",
+        "300 g Rosenkohl",
+        "1 Zwiebel",
+        "2 Zehen Knoblauch",
+        "40 g Walnusskerne",
+        "2 EL Olivenöl",
+        "1 EL Butter",
+        "1 Stück Bio-Zitrone (Abrieb und 1–2 EL Saft)",
+        "50 g Parmesan (oder vegetarischer Hartkäse)",
+        "1 Prise Chiliflocken (optional)",
+        "Salz, Pfeffer"
+      ],
+      "schritte": [
+        {
+          "text": "Nudelwasser aufsetzen und salzen. Walnüsse in einer trockenen Pfanne 3 Min. rösten, grob hacken, beiseitestellen.",
+          "timer_min": 3
+        },
+        "Rosenkohl putzen und halbieren (große Röschen vierteln). Zwiebel in Streifen, Knoblauch in Scheiben schneiden.",
+        "Pasta nach Packungsangabe kochen.",
+        {
+          "text": "Öl in der Pfanne erhitzen, Rosenkohl mit der Schnittfläche nach unten 6–8 Min. kräftig anbraten, bis er gebräunt ist.",
+          "timer_min": 6
+        },
+        "Zwiebel, Knoblauch und Chili 2 Min. mitbraten, salzen.",
+        "Pasta abgießen, dabei ca. 100 ml Nudelwasser auffangen. Pasta, Butter, Zitronenabrieb und -saft, die Hälfte des Parmesans und etwas Nudelwasser in die Pfanne geben und durchschwenken.",
+        "Mit Pfeffer abschmecken, mit Walnüssen und restlichem Parmesan bestreut servieren."
+      ],
+      "tags": [
+        "vegetarisch",
+        "schnell"
+      ],
+      "ablauf": [
+        "Nudelwasser aufsetzen, Walnüsse rösten",
+        "Rosenkohl putzen, Zwiebel, Knoblauch schneiden",
+        "Pasta kochen, parallel Rosenkohl anbraten",
+        "Alles mit Zitrone und Parmesan schwenken"
+      ],
+      "utensilien": [
+        "Großer Topf",
+        "Große Pfanne",
+        "Sieb",
+        "Reibe"
+      ],
+      "vorab": [
+        "Nudelwasser aufsetzen"
+      ]
+    }
+  ]
+}

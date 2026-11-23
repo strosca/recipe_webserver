@@ -1,0 +1,89 @@
+{
+  "datum": "2026-11-23",
+  "rezepte": [
+    {
+      "name": "Hachis Parmentier",
+      "beschreibung": "Der französische Auflauf-Klassiker: würziges Hack mit Gemüse unter einer goldbraun überbackenen Kartoffelpüree-Haube. Perfekt für einen grauen Novemberabend.",
+      "kueche": "französisch",
+      "typ": "Ofengericht",
+      "zeit_aktiv_min": 20,
+      "zeit_passiv_min": 40,
+      "portionen": 2,
+      "zutaten": [
+        "600 g mehligkochende Kartoffeln",
+        "250 g veganes Hack (oder Rinderhack)",
+        "1 Zwiebel",
+        "1 Möhre",
+        "1 Zehe Knoblauch",
+        "1 EL Tomatenmark",
+        "100 ml Gemüsebrühe",
+        "1 TL getrockneter Thymian",
+        "2 EL Öl",
+        "100 ml Milch",
+        "1 EL Butter",
+        "1 Prise Muskatnuss",
+        "50 g geriebener Emmentaler oder Gruyère",
+        "Salz, Pfeffer"
+      ],
+      "schritte": [
+        "Kartoffeln schälen, vierteln und in Salzwasser aufsetzen.",
+        { "text": "Kartoffeln zugedeckt 20 Minuten weich kochen.", "timer_min": 20 },
+        "Währenddessen Zwiebel, Möhre und Knoblauch fein würfeln. Ofen auf 200 °C Ober-/Unterhitze vorheizen.",
+        { "text": "Öl in einer Pfanne erhitzen, Hack krümelig anbraten, Gemüse dazugeben und 5 Minuten mitbraten.", "timer_min": 5 },
+        "Tomatenmark kurz mitrösten, mit Brühe ablöschen, Thymian zugeben und mit Salz und Pfeffer abschmecken. In die Auflaufform füllen.",
+        "Kartoffeln abgießen, mit warmer Milch und Butter zu Püree stampfen, mit Salz und Muskat würzen und auf dem Hack verstreichen. Mit Käse bestreuen.",
+        { "text": "Im Ofen 20 Minuten goldbraun überbacken.", "timer_min": 20 }
+      ],
+      "tags": ["vegan-möglich", "Wohlfühlessen"],
+      "ablauf": [
+        "Kartoffeln schälen und aufsetzen",
+        "20 min kochen – währenddessen Hack-Gemüse braten",
+        "Püree stampfen, Form schichten",
+        "20 min überbacken – Zeit für den Abwasch"
+      ],
+      "utensilien": ["Topf (ca. 3 l)", "Pfanne", "Kartoffelstampfer", "Auflaufform (ca. 20 × 20 cm)", "Reibe"],
+      "vorab": ["Ofen auf 200 °C vorheizen"]
+    },
+    {
+      "name": "Mămăligă mit Pilzen, Schafskäse und Spiegelei",
+      "beschreibung": "Rumänisches Soulfood: cremiger Maisbrei mit gebratenen Champignons, salzigem Schafskäse, Schmand und einem Spiegelei obendrauf.",
+      "kueche": "rumänisch",
+      "typ": "Pfannengericht",
+      "zeit_aktiv_min": 20,
+      "zeit_passiv_min": 5,
+      "portionen": 2,
+      "zutaten": [
+        "150 g Polenta (Maisgrieß, Instant)",
+        "600 ml Wasser",
+        "1 TL Salz",
+        "1 EL Butter",
+        "300 g Champignons",
+        "1 Zwiebel",
+        "1 Zehe Knoblauch",
+        "2 EL Öl",
+        "½ Bund Petersilie",
+        "100 g Schafskäse (Feta)",
+        "4 EL Schmand",
+        "2 Eier",
+        "Salz, Pfeffer"
+      ],
+      "schritte": [
+        "Champignons in Scheiben schneiden, Zwiebel und Knoblauch fein würfeln, Petersilie hacken.",
+        { "text": "1 EL Öl in einer Pfanne erhitzen, Pilze und Zwiebel darin 8 Minuten kräftig braten, Knoblauch kurz mitbraten, salzen, pfeffern und Petersilie unterheben. Warm stellen.", "timer_min": 8 },
+        "Wasser mit Salz in einem Topf aufkochen, Polenta unter Rühren einrieseln lassen.",
+        { "text": "Polenta bei kleiner Hitze unter gelegentlichem Rühren 5 Minuten quellen lassen, dann Butter unterrühren.", "timer_min": 5 },
+        { "text": "Währenddessen restliches Öl in der Pfanne erhitzen und die Eier 4 Minuten zu Spiegeleiern braten.", "timer_min": 4 },
+        "Mămăligă auf Teller verteilen, Pilze darauf geben, Schafskäse darüberbröseln und mit Schmand und Spiegelei servieren."
+      ],
+      "tags": ["vegetarisch", "glutenfrei", "schnell"],
+      "ablauf": [
+        "Pilze, Zwiebel, Petersilie schneiden",
+        "Pilze 8 min braten, Wasser aufsetzen",
+        "Polenta 5 min quellen – parallel Spiegeleier",
+        "Anrichten mit Schafskäse und Schmand"
+      ],
+      "utensilien": ["Topf (ca. 2 l)", "Schneebesen oder Kochlöffel", "große Pfanne"],
+      "vorab": []
+    }
+  ]
+}

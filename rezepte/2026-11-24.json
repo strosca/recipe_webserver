@@ -1,0 +1,86 @@
+{
+  "datum": "2026-11-24",
+  "rezepte": [
+    {
+      "name": "Überbackener Chicorée in Käsesauce",
+      "beschreibung": "Belgischer Winterklassiker in der vegetarischen Variante: angebratener Chicorée, dessen feine Bitternote unter einer cremigen Gouda-Béchamel goldbraun überbacken wird.",
+      "kueche": "belgisch",
+      "typ": "Ofengericht",
+      "zeit_aktiv_min": 20,
+      "zeit_passiv_min": 20,
+      "portionen": 2,
+      "zutaten": [
+        "4 Stück Chicorée (ca. 500 g)",
+        "1 EL Butter zum Anbraten",
+        "1 TL Zucker",
+        "25 g Butter",
+        "25 g Mehl",
+        "350 ml Milch",
+        "100 g geriebener Gouda (mittelalt)",
+        "1 Prise Muskatnuss",
+        "Salz, Pfeffer",
+        "1 Stück Baguette zum Servieren"
+      ],
+      "schritte": [
+        "Ofen auf 200 °C Ober-/Unterhitze vorheizen. Chicorée waschen, längs halbieren und den bitteren Strunk keilförmig herausschneiden.",
+        { "text": "1 EL Butter in einer Pfanne erhitzen, Chicorée mit der Schnittfläche nach unten 5 Minuten anbraten, mit Zucker, Salz und Pfeffer würzen und in die Auflaufform legen.", "timer_min": 5 },
+        { "text": "Für die Béchamel 25 g Butter im Topf schmelzen, Mehl 1 Minute anschwitzen, Milch nach und nach einrühren und 3 Minuten unter Rühren köcheln lassen.", "timer_min": 3 },
+        "Die Hälfte des Goudas in die Sauce rühren und mit Salz, Pfeffer und Muskat abschmecken.",
+        "Sauce über den Chicorée gießen und mit dem restlichen Gouda bestreuen.",
+        { "text": "Im Ofen 20 Minuten goldbraun überbacken; das Baguette in den letzten 5 Minuten mit aufbacken.", "timer_min": 20 },
+        "Kurz ruhen lassen und mit dem Baguette servieren."
+      ],
+      "tags": ["vegetarisch", "Wohlfühlessen"],
+      "ablauf": [
+        "Ofen vorheizen, Chicorée putzen",
+        "Chicorée anbraten, in Form legen",
+        "Käse-Béchamel rühren, darübergießen",
+        "20 min backen – Zeit für den Abwasch"
+      ],
+      "utensilien": ["Auflaufform (ca. 20 × 25 cm)", "Große Pfanne", "Kleiner Topf", "Schneebesen", "Reibe"],
+      "vorab": ["Ofen auf 200 °C vorheizen"]
+    },
+    {
+      "name": "Deftige Erbsensuppe mit Majoran",
+      "beschreibung": "Sämige Suppe aus grünen Schälerbsen mit Möhren, Sellerie und einem Hauch Rauchpaprika – wärmt an kalten Novemberabenden und schmeckt am nächsten Tag noch besser.",
+      "kueche": "deutsch",
+      "typ": "Suppe",
+      "zeit_aktiv_min": 15,
+      "zeit_passiv_min": 45,
+      "portionen": 2,
+      "zutaten": [
+        "200 g grüne Schälerbsen (getrocknet)",
+        "1 Zwiebel",
+        "2 Möhren",
+        "150 g Knollensellerie",
+        "½ Stange Lauch",
+        "2 EL Rapsöl",
+        "1 l Gemüsebrühe",
+        "1 TL getrockneter Majoran",
+        "1 Blatt Lorbeer",
+        "½ TL geräuchertes Paprikapulver",
+        "1 EL Apfelessig",
+        "Salz, Pfeffer",
+        "2 EL saure Sahne zum Servieren",
+        "2 Scheiben Bauernbrot zum Servieren"
+      ],
+      "schritte": [
+        "Schälerbsen in einem Sieb gründlich abspülen. Zwiebel, Möhren und Sellerie würfeln, Lauch in Ringe schneiden.",
+        { "text": "Öl im Topf erhitzen, Zwiebel und Sellerie 3 Minuten andünsten.", "timer_min": 3 },
+        "Erbsen, Möhren, Lauch, Brühe, Majoran, Lorbeer und Paprikapulver zugeben und aufkochen.",
+        { "text": "Zugedeckt bei kleiner Hitze 45 Minuten köcheln lassen, bis die Erbsen zerfallen; gelegentlich umrühren.", "timer_min": 45 },
+        "Lorbeerblatt entfernen und etwa ein Drittel der Suppe mit dem Pürierstab grob pürieren.",
+        "Mit Salz, Pfeffer und Apfelessig abschmecken, mit einem Klecks saurer Sahne und Bauernbrot servieren."
+      ],
+      "tags": ["vegetarisch", "meal-prep", "Wohlfühlessen"],
+      "ablauf": [
+        "Erbsen spülen, Gemüse schneiden",
+        "Gemüse andünsten, alles aufkochen",
+        "45 min köcheln – Zeit zum Aufräumen",
+        "Teilweise pürieren, abschmecken, servieren"
+      ],
+      "utensilien": ["Großer Topf mit Deckel", "Sieb", "Pürierstab", "Schneidebrett und Messer"],
+      "vorab": []
+    }
+  ]
+}

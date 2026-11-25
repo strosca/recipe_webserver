@@ -1,0 +1,130 @@
+{
+  "datum": "2026-11-25",
+  "rezepte": [
+    {
+      "name": "Boerenkool-Stamppot mit Gouda und Spiegelei",
+      "beschreibung": "Der niederländische Winterklassiker: cremiger Kartoffelstampf, in den frischer Grünkohl gerührt wird, dazu würziger alter Gouda und ein Spiegelei mit flüssigem Eigelb.",
+      "kueche": "niederländisch",
+      "typ": "Eintopf",
+      "zeit_aktiv_min": 20,
+      "zeit_passiv_min": 20,
+      "portionen": 2,
+      "zutaten": [
+        "700 g mehligkochende Kartoffeln",
+        "250 g Grünkohl (frisch, geputzt und gehackt aus dem Beutel)",
+        "1 Zwiebel",
+        "2 EL Butter",
+        "150 ml Milch",
+        "60 g alter Gouda",
+        "1 TL mittelscharfer Senf",
+        "2 Eier",
+        "1 EL Rapsöl",
+        "1 Prise Muskatnuss",
+        "Salz, Pfeffer"
+      ],
+      "schritte": [
+        "Kartoffeln schälen, in grobe Stücke schneiden und in einem großen Topf mit Salzwasser bedecken.",
+        {
+          "text": "Kartoffeln aufkochen und 15 Minuten kochen. Nach 5 Minuten den Grünkohl obenauf legen und zugedeckt mitgaren.",
+          "timer_min": 15
+        },
+        {
+          "text": "Inzwischen Zwiebel fein würfeln, Gouda grob reiben. Zwiebel in 1 EL Butter in einer Pfanne 5 Minuten goldgelb braten und beiseitestellen.",
+          "timer_min": 5
+        },
+        "Kartoffeln und Grünkohl abgießen, zurück in den Topf geben, Milch, restliche Butter und Senf zugeben und alles grob zerstampfen.",
+        "Gebratene Zwiebeln und die Hälfte des Goudas unterrühren, mit Salz, Pfeffer und Muskat abschmecken; zugedeckt warm halten.",
+        {
+          "text": "Öl in der Pfanne erhitzen und die Eier darin 4 Minuten zu Spiegeleiern braten.",
+          "timer_min": 4
+        },
+        "Stamppot auf Teller geben, mit restlichem Gouda bestreuen und je ein Spiegelei daraufsetzen."
+      ],
+      "tags": [
+        "vegetarisch",
+        "glutenfrei",
+        "Wohlfühlessen"
+      ],
+      "ablauf": [
+        "Kartoffeln schälen und aufsetzen",
+        "15 min kochen, Grünkohl dazu – Zwiebeln braten",
+        "Alles stampfen und abschmecken",
+        "Spiegeleier braten, servieren"
+      ],
+      "utensilien": [
+        "Großer Topf (ca. 4 l) mit Deckel",
+        "Pfanne (ca. 26 cm)",
+        "Kartoffelstampfer",
+        "Reibe",
+        "Sieb"
+      ],
+      "vorab": []
+    },
+    {
+      "name": "Makaronilaatikko – finnischer Nudelauflauf",
+      "beschreibung": "Finnisches Familienessen: Makkaroni und würziges Hack werden mit Eiermilch übergossen und im Ofen zu einem goldbraunen, saftigen Auflauf gebacken – einfach und sättigend.",
+      "kueche": "finnisch",
+      "typ": "Ofengericht",
+      "zeit_aktiv_min": 20,
+      "zeit_passiv_min": 45,
+      "portionen": 2,
+      "zutaten": [
+        "200 g Makkaroni (oder Hörnchennudeln)",
+        "250 g veganes Hack (oder Rinderhack)",
+        "1 Zwiebel",
+        "1 Möhre",
+        "1 EL Rapsöl",
+        "1 TL Butter für die Form",
+        "2 Eier",
+        "400 ml Milch",
+        "1 TL edelsüßes Paprikapulver",
+        "½ TL getrockneter Majoran",
+        "50 g geriebener Emmentaler",
+        "1 Prise Muskatnuss",
+        "Salz, Pfeffer",
+        "4 EL Preiselbeeren aus dem Glas zum Servieren"
+      ],
+      "schritte": [
+        "Ofen auf 200 °C Ober-/Unterhitze vorheizen und eine Auflaufform buttern.",
+        {
+          "text": "Makkaroni in Salzwasser 2 Minuten kürzer als auf der Packung angegeben kochen (ca. 6 Minuten), abgießen.",
+          "timer_min": 6
+        },
+        "Währenddessen Zwiebel fein würfeln und Möhre fein raspeln.",
+        {
+          "text": "Öl in einer Pfanne erhitzen, Hack, Zwiebel und Möhre darin 6–8 Minuten krümelig braten; mit Paprika, Majoran, Salz und Pfeffer würzen.",
+          "timer_min": 6
+        },
+        "Nudeln und Hackmischung in der Form vermengen. Eier, Milch, Muskat, ½ TL Salz und Pfeffer verquirlen und darübergießen.",
+        {
+          "text": "Mit Käse bestreuen und 45–50 Minuten backen, bis die Eiermilch gestockt und die Oberfläche goldbraun ist.",
+          "timer_min": 45
+        },
+        "Kurz ruhen lassen, in Stücke schneiden und mit Preiselbeeren servieren."
+      ],
+      "tags": [
+        "vegan-möglich",
+        "meal-prep",
+        "Wohlfühlessen"
+      ],
+      "ablauf": [
+        "Ofen vorheizen, Nudelwasser aufsetzen",
+        "Nudeln kochen, parallel Hack mit Gemüse braten",
+        "Alles in die Form, Eiermilch drüber",
+        "45 min backen – Zeit für den Abwasch"
+      ],
+      "utensilien": [
+        "Auflaufform (ca. 20 × 25 cm)",
+        "Topf für die Nudeln",
+        "Pfanne (ca. 26 cm)",
+        "Sieb",
+        "Reibe",
+        "Schüssel und Schneebesen"
+      ],
+      "vorab": [
+        "Ofen auf 200 °C vorheizen",
+        "Nudelwasser aufsetzen"
+      ]
+    }
+  ]
+}

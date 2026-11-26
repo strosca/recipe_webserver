@@ -1,0 +1,88 @@
+{
+  "datum": "2026-11-26",
+  "rezepte": [
+    {
+      "name": "Elsässer Flammkuchen mit Lauch und Bergkäse",
+      "beschreibung": "Hauchdünner, knuspriger Boden mit cremigem Schmand, zarten Lauchringen und etwas Bergkäse – in wenigen Minuten aus dem heißen Ofen.",
+      "kueche": "elsässisch",
+      "typ": "Ofengericht",
+      "zeit_aktiv_min": 20,
+      "zeit_passiv_min": 30,
+      "portionen": 2,
+      "zutaten": [
+        "250 g Weizenmehl (Type 550)",
+        "125 ml lauwarmes Wasser",
+        "2 EL Rapsöl",
+        "½ TL Salz",
+        "150 g Schmand",
+        "100 g Crème fraîche",
+        "1 Stange Lauch",
+        "1 Stück rote Zwiebel",
+        "60 g Bergkäse",
+        "1 Prise Muskat",
+        "½ Bund Schnittlauch",
+        "Salz, Pfeffer"
+      ],
+      "schritte": [
+        "Ofen auf 250 °C Ober-/Unterhitze vorheizen.",
+        "Mehl, Salz, Wasser und Öl 5 Minuten zu einem glatten Teig kneten.",
+        { "text": "Teig abgedeckt 10 Minuten ruhen lassen.", "timer_min": 10 },
+        "Währenddessen Lauch in feine Ringe schneiden und waschen, Zwiebel in hauchdünne Ringe schneiden, Bergkäse reiben.",
+        "Schmand und Crème fraîche mit Salz, Pfeffer und Muskat glatt rühren.",
+        "Teig halbieren, jede Hälfte auf Backpapier hauchdünn ausrollen, mit der Creme bestreichen und mit Lauch, Zwiebel und Käse belegen.",
+        { "text": "Flammkuchen nacheinander auf der untersten Schiene je 10–12 Minuten knusprig backen.", "timer_min": 10 },
+        "Mit Schnittlauchröllchen bestreuen und sofort servieren."
+      ],
+      "tags": ["vegetarisch", "Wohlfühlessen"],
+      "ablauf": [
+        "Ofen vorheizen, Teig kneten",
+        "10 min Teigruhe – Lauch und Zwiebel schneiden",
+        "Ausrollen, bestreichen, belegen",
+        "Je 10–12 min backen – ersten schon essen"
+      ],
+      "utensilien": ["2 Backbleche oder 1 Blech nacheinander", "Backpapier", "Nudelholz", "Rührschüssel", "Reibe"],
+      "vorab": ["Ofen auf 250 °C vorheizen"]
+    },
+    {
+      "name": "Norddeutscher Steckrübeneintopf",
+      "beschreibung": "Ein wärmender Novembereintopf mit süßlicher Steckrübe, Kartoffeln und Möhren, kräftig mit Majoran gewürzt und halb zerstampft schön sämig.",
+      "kueche": "norddeutsch",
+      "typ": "Eintopf",
+      "zeit_aktiv_min": 20,
+      "zeit_passiv_min": 25,
+      "portionen": 2,
+      "zutaten": [
+        "600 g Steckrübe",
+        "250 g festkochende Kartoffeln",
+        "2 Stück Möhren",
+        "1 Stück Zwiebel",
+        "1 EL Butter",
+        "800 ml Gemüsebrühe",
+        "1 Stück Lorbeerblatt",
+        "1 TL getrockneter Majoran",
+        "4 Stück vegetarische Wiener Würstchen",
+        "1 Prise Zucker",
+        "½ Bund glatte Petersilie",
+        "Salz, Pfeffer"
+      ],
+      "schritte": [
+        "Steckrübe, Kartoffeln und Möhren schälen und in ca. 1,5 cm große Würfel schneiden, Zwiebel fein würfeln.",
+        { "text": "Zwiebel in der Butter in einem großen Topf 3 Minuten glasig dünsten.", "timer_min": 3 },
+        "Steckrübe, Kartoffeln und Möhren kurz mitdünsten, dann Brühe, Lorbeerblatt und Majoran zugeben und aufkochen.",
+        { "text": "Eintopf zugedeckt 20 Minuten köcheln lassen, bis das Gemüse weich ist.", "timer_min": 20 },
+        { "text": "Würstchen in Scheiben schneiden, zugeben und 5 Minuten darin erwärmen.", "timer_min": 5 },
+        "Lorbeerblatt entfernen, etwa ein Drittel des Gemüses mit dem Kartoffelstampfer grob zerdrücken.",
+        "Mit Salz, Pfeffer und einer Prise Zucker abschmecken und mit gehackter Petersilie servieren."
+      ],
+      "tags": ["vegetarisch", "meal-prep", "Wohlfühlessen"],
+      "ablauf": [
+        "Gemüse schälen und würfeln",
+        "Zwiebel anschwitzen, Gemüse und Brühe dazu",
+        "20 min köcheln – Zeit für den Abwasch",
+        "Würstchen erwärmen, teils stampfen, abschmecken"
+      ],
+      "utensilien": ["Großer Topf (ca. 3 l) mit Deckel", "Sparschäler", "Kartoffelstampfer", "Schneidebrett und großes Messer"],
+      "vorab": []
+    }
+  ]
+}

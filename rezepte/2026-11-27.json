@@ -1,0 +1,86 @@
+{
+  "datum": "2026-11-27",
+  "rezepte": [
+    {
+      "name": "Květákový mozeček – tschechisches Blumenkohl-Rührei",
+      "beschreibung": "Ein Prager Hausmannskost-Klassiker: zart gegarter Blumenkohl, in Butter mit Zwiebeln angebraten und mit Eiern locker gestockt. Dazu kräftiges Bauernbrot und Gewürzgurken.",
+      "kueche": "tschechisch",
+      "typ": "Pfannengericht",
+      "zeit_aktiv_min": 15,
+      "zeit_passiv_min": 10,
+      "portionen": 2,
+      "zutaten": [
+        "1 Kopf Blumenkohl (ca. 800 g)",
+        "1 Zwiebel",
+        "2 EL Butter",
+        "4 Eier",
+        "3 EL Milch",
+        "½ TL gemahlener Kümmel",
+        "1 Prise Muskatnuss",
+        "½ Bund Schnittlauch",
+        "Salz, Pfeffer",
+        "4 Scheiben Bauernbrot zum Servieren",
+        "4 Stück Gewürzgurken zum Servieren"
+      ],
+      "schritte": [
+        "Einen Topf mit Salzwasser aufsetzen. Blumenkohl in kleine Röschen teilen, den zarten Strunk klein würfeln.",
+        { "text": "Blumenkohl im kochenden Salzwasser 8 Minuten weich garen, dann gut abgießen und ausdampfen lassen.", "timer_min": 8 },
+        { "text": "Währenddessen die Zwiebel fein würfeln und in einer großen Pfanne in der Butter 5 Minuten glasig dünsten.", "timer_min": 5 },
+        { "text": "Blumenkohl in die Pfanne geben, mit dem Pfannenwender grob zerdrücken, mit Kümmel würzen und 3–4 Minuten leicht anbraten.", "timer_min": 3 },
+        "Eier mit Milch, Salz, Pfeffer und Muskat verquirlen. Schnittlauch in feine Röllchen schneiden.",
+        { "text": "Eiermasse über den Blumenkohl gießen und bei mittlerer Hitze unter gelegentlichem Rühren 3 Minuten cremig stocken lassen.", "timer_min": 3 },
+        "Mit Schnittlauch bestreuen und mit Bauernbrot und Gewürzgurken servieren."
+      ],
+      "tags": ["vegetarisch", "schnell", "Wohlfühlessen"],
+      "ablauf": [
+        "Salzwasser aufsetzen, Blumenkohl zerteilen",
+        "8 min Blumenkohl garen – parallel Zwiebeln dünsten",
+        "Blumenkohl zerdrücken und anbraten",
+        "Eier verquirlen, in der Pfanne stocken lassen",
+        "Mit Schnittlauch, Brot und Gurken servieren"
+      ],
+      "utensilien": ["Großer Topf", "Große Pfanne (ca. 28 cm)", "Sieb", "Schüssel", "Schneebesen oder Gabel", "Pfannenwender"],
+      "vorab": ["Salzwasser zum Kochen aufsetzen"]
+    },
+    {
+      "name": "Zeljanica – bosnische Spinat-Käse-Schnecke",
+      "beschreibung": "Knuspriger Teig, saftige Füllung aus Spinat, Schafskäse und Schmand – auf dem Balkan ein Alltagsgericht, das aus dem Ofen direkt auf den Tisch kommt. Mit kaltem Joghurt ein echtes Wohlfühlessen.",
+      "kueche": "bosnisch",
+      "typ": "Ofengericht",
+      "zeit_aktiv_min": 20,
+      "zeit_passiv_min": 40,
+      "portionen": 2,
+      "zutaten": [
+        "450 g TK-Blattspinat (aufgetaut)",
+        "200 g Feta (Schafskäse)",
+        "150 g Schmand",
+        "2 Eier",
+        "1 Zehe Knoblauch",
+        "1 Packung Filo- oder Yufkateig (ca. 250 g, Kühlregal)",
+        "5 EL Rapsöl",
+        "100 ml Mineralwasser mit Kohlensäure",
+        "Salz, Pfeffer",
+        "200 g Naturjoghurt zum Servieren"
+      ],
+      "schritte": [
+        "Ofen auf 200 °C Ober-/Unterhitze vorheizen und eine runde Form (ca. 26 cm) oder ofenfeste Pfanne mit etwas Öl auspinseln.",
+        "Aufgetauten Spinat kräftig ausdrücken und grob hacken. Knoblauch fein reiben.",
+        "Spinat mit zerbröseltem Feta, den Eiern, der Hälfte des Schmands und dem Knoblauch verrühren, mit Pfeffer und wenig Salz würzen.",
+        "Restlichen Schmand mit Öl und Mineralwasser zu einer Streiche verrühren.",
+        "Je 2 Teigblätter übereinanderlegen, dünn mit der Streiche bepinseln, einen Streifen Füllung an die lange Kante setzen, locker aufrollen und die Rollen als Schnecke in die Form legen.",
+        { "text": "Die Schnecke mit der restlichen Streiche bepinseln und 35–40 Minuten goldbraun backen.", "timer_min": 35 },
+        { "text": "5 Minuten ruhen lassen, in Stücke schneiden und mit Joghurt servieren.", "timer_min": 5 }
+      ],
+      "tags": ["vegetarisch", "Wohlfühlessen"],
+      "ablauf": [
+        "Ofen vorheizen, Form einölen",
+        "Spinat ausdrücken, Füllung anrühren",
+        "Teig bestreichen, füllen, zur Schnecke rollen",
+        "35–40 min backen – Zeit zum Aufräumen",
+        "Kurz ruhen lassen, mit Joghurt servieren"
+      ],
+      "utensilien": ["Runde Backform (ca. 26 cm) oder ofenfeste Pfanne", "Große Schüssel", "Kleine Schüssel", "Backpinsel", "Reibe"],
+      "vorab": ["Spinat am Vorabend im Kühlschrank auftauen lassen (oder 1 h vorher in einem Sieb)", "Ofen auf 200 °C vorheizen"]
+    }
+  ]
+}

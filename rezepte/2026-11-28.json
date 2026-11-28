@@ -1,0 +1,85 @@
+{
+  "datum": "2026-11-28",
+  "rezepte": [
+    {
+      "name": "Soupe à l'oignon gratinée",
+      "beschreibung": "Langsam geschmorte, süßlich-karamellige Zwiebeln in kräftiger Brühe, darauf Röstbrot mit geschmolzenem Gruyère – die französische Zwiebelsuppe für kalte Novemberabende.",
+      "kueche": "französisch",
+      "typ": "Suppe",
+      "zeit_aktiv_min": 20,
+      "zeit_passiv_min": 55,
+      "portionen": 2,
+      "zutaten": [
+        "600 g Gemüsezwiebeln",
+        "30 g Butter",
+        "1 EL Olivenöl",
+        "1 TL Zucker",
+        "1 EL Mehl",
+        "100 ml trockener Weißwein",
+        "750 ml Gemüsebrühe",
+        "2 Zweige Thymian",
+        "1 Lorbeerblatt",
+        "4 Scheiben Baguette",
+        "80 g Gruyère (oder Bergkäse)",
+        "Salz, Pfeffer"
+      ],
+      "schritte": [
+        "Zwiebeln schälen, halbieren und in dünne Halbringe schneiden.",
+        { "text": "Butter und Öl in einem großen Topf erhitzen, Zwiebeln mit Zucker und 1 Prise Salz bei mittlerer Hitze 30 Minuten goldbraun schmoren, dabei alle paar Minuten umrühren.", "timer_min": 30 },
+        "Mehl über die Zwiebeln stäuben, kurz anschwitzen und mit dem Weißwein ablöschen.",
+        { "text": "Brühe, Thymian und Lorbeer zugeben und 20 Minuten offen köcheln lassen. Währenddessen den Backofengrill auf 230 °C vorheizen und den Käse reiben.", "timer_min": 20 },
+        "Thymianzweige und Lorbeer entfernen, Suppe mit Salz und Pfeffer abschmecken und in zwei ofenfeste Suppenschalen füllen.",
+        { "text": "Baguettescheiben auf die Suppe legen, mit Käse bestreuen und unter dem Grill 5–6 Minuten goldbraun überbacken.", "timer_min": 5 }
+      ],
+      "tags": ["vegetarisch", "Wohlfühlessen"],
+      "ablauf": [
+        "Zwiebeln in Halbringe schneiden",
+        "30 min schmoren, ab und zu rühren",
+        "Ablöschen, 20 min köcheln – Käse reiben",
+        "Brot und Käse drauf, 5 min gratinieren"
+      ],
+      "utensilien": ["großer Topf (ca. 3 l)", "2 ofenfeste Suppenschalen", "Backblech", "Reibe", "Kochlöffel"],
+      "vorab": []
+    },
+    {
+      "name": "Tortilla de patatas mit Feldsalat",
+      "beschreibung": "Saftige spanische Kartoffel-Tortilla mit sanft im Olivenöl gegarten Kartoffeln und Zwiebeln, dazu ein frischer Feldsalat mit Senf-Vinaigrette.",
+      "kueche": "spanisch",
+      "typ": "Pfannengericht",
+      "zeit_aktiv_min": 20,
+      "zeit_passiv_min": 30,
+      "portionen": 2,
+      "zutaten": [
+        "500 g festkochende Kartoffeln",
+        "1 Stück Zwiebel",
+        "100 ml Olivenöl",
+        "5 Eier",
+        "100 g Feldsalat",
+        "1 EL Weißweinessig",
+        "1 TL Senf",
+        "1 TL Honig",
+        "2 EL Olivenöl (für das Dressing)",
+        "Salz, Pfeffer"
+      ],
+      "schritte": [
+        "Kartoffeln schälen, vierteln und in 3–4 mm dünne Scheiben schneiden. Zwiebel schälen und in feine Streifen schneiden.",
+        { "text": "Olivenöl in einer beschichteten Pfanne (ca. 24 cm) erhitzen, Kartoffeln und Zwiebel salzen und bei mittlerer Hitze 18–20 Minuten weich garen, gelegentlich wenden – sie sollen nicht braun werden.", "timer_min": 18 },
+        { "text": "Eier in einer großen Schüssel mit Salz verquirlen. Kartoffeln abtropfen lassen (Öl auffangen), unter die Eier mischen und 5 Minuten ziehen lassen.", "timer_min": 5 },
+        { "text": "2 EL vom aufgefangenen Öl in der Pfanne erhitzen, Masse hineingeben und bei mittlerer bis kleiner Hitze 6–8 Minuten stocken lassen.", "timer_min": 6 },
+        { "text": "Tortilla mithilfe eines großen Tellers wenden, zurück in die Pfanne gleiten lassen und weitere 3–4 Minuten fertig garen.", "timer_min": 3 },
+        "Währenddessen Feldsalat waschen und trocken schleudern. Essig, Senf, Honig, Öl, Salz und Pfeffer verrühren und den Salat damit anmachen.",
+        "Tortilla kurz ruhen lassen, in Stücke schneiden und mit dem Feldsalat servieren."
+      ],
+      "tags": ["vegetarisch", "glutenfrei"],
+      "ablauf": [
+        "Kartoffeln und Zwiebel schneiden",
+        "20 min sanft im Öl garen",
+        "Mit Eiern mischen, 5 min ziehen",
+        "Stocken lassen – währenddessen Salat waschen",
+        "Wenden, fertig garen, Salat anmachen"
+      ],
+      "utensilien": ["beschichtete Pfanne (ca. 24 cm)", "großer flacher Teller zum Wenden", "große Schüssel", "Sieb", "Salatschleuder", "kleine Schüssel für das Dressing"],
+      "vorab": []
+    }
+  ]
+}
